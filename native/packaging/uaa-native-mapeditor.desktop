@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=UAA Mapeditor 0.1.4
+Comment=Optional native map editor for UFO Alien Atak
+Exec=/usr/bin/uaa-native-mapeditor
+TryExec=/usr/bin/uaa-native-mapeditor
+Terminal=false
+Categories=Game;Graphics;

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "iss-resident-1",
+    "name": "MAYA CHEN",
+    "role": "COMMANDER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-2",
+    "name": "ALEX MORGAN",
+    "role": "FLIGHT ENGINEER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-3",
+    "name": "SOFIA RUIZ",
+    "role": "SCIENCE OFFICER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-4",
+    "name": "JAMIE PARK",
+    "role": "FLIGHT ENGINEER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-5",
+    "name": "RILEY SANTOS",
+    "role": "SYSTEMS ENGINEER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-6",
+    "name": "SAMIR KHAN",
+    "role": "MEDICAL OFFICER",
+    "permanent": true
+  },
+  {
+    "id": "iss-resident-7",
+    "name": "ELENA PETROVA",
+    "role": "SCIENCE OFFICER",
+    "permanent": true
+  }
+]

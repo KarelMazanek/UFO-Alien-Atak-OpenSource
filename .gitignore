@@ -1,0 +1,9 @@
+/build*/
+/native/build*/
+*.deb
+*.exe
+*.dll
+*.pak
+*.o
+*.obj
+__pycache__/

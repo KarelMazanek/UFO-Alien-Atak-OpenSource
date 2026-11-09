@@ -1,0 +1,13 @@
+{
+  "internalLitres": 4500,
+  "externalLitres": 2100,
+  "internalRangeKm": 2200,
+  "externalRangeKm": 3200,
+  "reserveFraction": 0.15,
+  "combatFraction": 0.1,
+  "sources": [
+    "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-35/f35A.pdf",
+    "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104505/f-16-fighting-falcon/"
+  ],
+  "note": "Fictional game fighter balanced to modern fighter ranges; combat radius includes return, combat allowance and reserve. Not a specific real aircraft."
+}

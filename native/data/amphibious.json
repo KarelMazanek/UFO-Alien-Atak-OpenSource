@@ -1,0 +1,560 @@
+{
+  "soldierCapacity": 4,
+  "equipmentPallets": 2,
+  "modes": [
+    "AIR",
+    "UNDERWATER"
+  ],
+  "equipment": [
+    {
+      "id": "diving-suit",
+      "name": "SEALED DIVING SUIT",
+      "description": "Pressure-sealed suit with gloves and boots for underwater operations. Requires a separate diving hood and rebreather.",
+      "storageLitres": 65,
+      "combat": {
+        "values": {
+          "weight": 4
+        }
+      },
+      "production": {
+        "marketPrice": 9000,
+        "productionCost": 6000,
+        "productionHours": 24,
+        "materials": {
+          "iron": 2,
+          "plastics": 3,
+          "electronics": 2,
+          "glass": 1
+        }
+      },
+      "specs": [
+        [
+          "USE",
+          "Underwater operations"
+        ],
+        [
+          "STORAGE",
+          "65 l"
+        ]
+      ],
+      "image": "assets/underwater-ufopedia-v1/diving-suit.png"
+    },
+    {
+      "id": "rebreather",
+      "name": "CLOSED-CIRCUIT REBREATHER",
+      "description": "Independent closed-circuit breathing equipment for underwater operations.",
+      "storageLitres": 35,
+      "combat": {
+        "values": {
+          "weight": 5
+        }
+      },
+      "production": {
+        "marketPrice": 4500,
+        "productionCost": 3000,
+        "productionHours": 12,
+        "materials": {
+          "iron": 2,
+          "plastics": 3,
+          "electronics": 2,
+          "glass": 1
+        }
+      },
+      "specs": [
+        [
+          "USE",
+          "Underwater operations"
+        ],
+        [
+          "STORAGE",
+          "35 l"
+        ]
+      ],
+      "image": "assets/underwater-ufopedia-v1/rebreather.png"
+    },
+    {
+      "id": "diving-hood",
+      "name": "UNDERWATER DIVING HOOD",
+      "description": "Sealed protective hood for underwater operations; used with a diving suit and rebreather.",
+      "storageLitres": 5,
+      "combat": {
+        "values": {
+          "weight": 0.5
+        }
+      },
+      "production": {
+        "marketPrice": 1200,
+        "productionCost": 800,
+        "productionHours": 6,
+        "materials": {
+          "plastics": 2,
+          "glass": 1
+        }
+      },
+      "specs": [
+        [
+          "USE",
+          "Underwater operations"
+        ],
+        [
+          "STORAGE",
+          "5 l"
+        ]
+      ],
+      "image": "assets/underwater-ufopedia-v1/diving-hood.png"
+    },
+    {
+      "id": "underwater-robot",
+      "name": "UNDERWATER ROBOT",
+      "description": "Underwater robot, 4 × 8. Optional cannon and torpedoes; front and rear propellers.",
+      "image": "assets/underwater-robot-v4.png",
+      "storageLitres": 2400,
+      "production": {
+        "marketPrice": 350000,
+        "productionCost": 210000,
+        "productionHours": 120,
+        "materials": {
+          "iron": 20,
+          "plastics": 5,
+          "electronics": 8,
+          "glass": 2
+        }
+      },
+      "category": "tank",
+      "environments": [
+        "UNDERWATER"
+      ],
+      "footprint": [
+        4,
+        8
+      ],
+      "size": {
+        "width": 4,
+        "height": 8
+      },
+      "specs": [
+        [
+          "FOOTPRINT",
+          "4 × 8"
+        ],
+        [
+          "PROPULSION",
+          "FRONT + REAR PROPELLERS"
+        ],
+        [
+          "WEAPONS",
+          "CANNON / TORPEDO"
+        ]
+      ]
+    },
+    {
+      "id": "compressed-air-cannon",
+      "name": "COMPRESSED-AIR CANNON",
+      "description": "COMPRESSED-AIR CANNON for underwater robot operations.",
+      "storageLitres": 50,
+      "production": {
+        "marketPrice": 25000,
+        "productionCost": 15000,
+        "productionHours": 6,
+        "materials": {
+          "iron": 2,
+          "plastics": 1,
+          "electronics": 1,
+          "glass": 0
+        }
+      },
+      "combat": {
+        "kind": "weapon",
+        "values": {
+          "range": 1000,
+          "maxRange": 1000,
+          "damage": 8
+        },
+        "tu": {
+          "hip": 20,
+          "aimed": 35
+        },
+        "curves": {
+          "hip": [
+            [
+              0,
+              50
+            ],
+            [
+              500.0,
+              40
+            ],
+            [
+              1000,
+              20
+            ]
+          ],
+          "aimed": [
+            [
+              0,
+              80
+            ],
+            [
+              500.0,
+              64
+            ],
+            [
+              1000,
+              32
+            ]
+          ]
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/compressed-air-cannon.png"
+    },
+    {
+      "id": "underwater-torpedo-launcher",
+      "name": "UNDERWATER TORPEDO LAUNCHER",
+      "description": "UNDERWATER TORPEDO LAUNCHER for underwater robot operations.",
+      "storageLitres": 80,
+      "production": {
+        "marketPrice": 45000,
+        "productionCost": 27000,
+        "productionHours": 6,
+        "materials": {
+          "iron": 2,
+          "plastics": 1,
+          "electronics": 1,
+          "glass": 0
+        }
+      },
+      "combat": {
+        "kind": "weapon",
+        "values": {
+          "range": 5000,
+          "maxRange": 5000,
+          "damage": 35
+        },
+        "tu": {
+          "hip": 25,
+          "aimed": 40
+        },
+        "curves": {
+          "hip": [
+            [
+              0,
+              40
+            ],
+            [
+              2500.0,
+              32
+            ],
+            [
+              5000,
+              16
+            ]
+          ],
+          "aimed": [
+            [
+              0,
+              85
+            ],
+            [
+              2500.0,
+              68
+            ],
+            [
+              5000,
+              34
+            ]
+          ]
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/underwater-torpedo-launcher.png"
+    },
+    {
+      "id": "air-round",
+      "name": "COMPRESSED-AIR ROUND",
+      "description": "COMPRESSED-AIR ROUND for underwater robot operations.",
+      "storageLitres": 1,
+      "production": {
+        "marketPrice": 50,
+        "productionCost": 30,
+        "productionHours": 6,
+        "materials": {
+          "iron": 2,
+          "plastics": 1,
+          "electronics": 1,
+          "glass": 0
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/air-round.png"
+    },
+    {
+      "id": "underwater-torpedo",
+      "name": "UNDERWATER TORPEDO",
+      "description": "UNDERWATER TORPEDO for underwater robot operations.",
+      "storageLitres": 25,
+      "production": {
+        "marketPrice": 1500,
+        "productionCost": 900,
+        "productionHours": 6,
+        "materials": {
+          "iron": 2,
+          "plastics": 1,
+          "electronics": 1,
+          "glass": 0
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/underwater-torpedo.png"
+    },
+    {
+      "id": "compressed-air-cannon-mk2",
+      "name": "HIGH-PRESSURE UNDERWATER CANNON",
+      "description": "High-pressure underwater cannon for underwater robot. Requires completed research.",
+      "requiresResearch": "research_underwater_ballistics",
+      "storageLitres": 60,
+      "production": {
+        "marketPrice": 65000,
+        "productionCost": 40000,
+        "productionHours": 24,
+        "materials": {
+          "iron": 8,
+          "plastics": 4,
+          "electronics": 8,
+          "glass": 2
+        }
+      },
+      "combat": {
+        "kind": "weapon",
+        "values": {
+          "range": 2000,
+          "maxRange": 2000,
+          "damage": 12
+        },
+        "tu": {
+          "hip": 20,
+          "aimed": 35
+        },
+        "curves": {
+          "hip": [
+            [
+              0,
+              50
+            ],
+            [
+              1000.0,
+              40
+            ],
+            [
+              2000,
+              20
+            ]
+          ],
+          "aimed": [
+            [
+              0,
+              85
+            ],
+            [
+              1000.0,
+              68
+            ],
+            [
+              2000,
+              34
+            ]
+          ]
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/compressed-air-cannon-mk2.png"
+    },
+    {
+      "id": "guided-torpedo-launcher",
+      "name": "GUIDED UNDERWATER TORPEDOES",
+      "description": "Guided underwater torpedoes for underwater robot. Requires completed research.",
+      "requiresResearch": "research_underwater_guidance",
+      "storageLitres": 60,
+      "production": {
+        "marketPrice": 65000,
+        "productionCost": 40000,
+        "productionHours": 24,
+        "materials": {
+          "iron": 8,
+          "plastics": 4,
+          "electronics": 8,
+          "glass": 2
+        }
+      },
+      "combat": {
+        "kind": "weapon",
+        "values": {
+          "range": 8000,
+          "maxRange": 8000,
+          "damage": 50
+        },
+        "tu": {
+          "hip": 25,
+          "aimed": 40
+        },
+        "curves": {
+          "hip": [
+            [
+              0,
+              40
+            ],
+            [
+              4000.0,
+              32
+            ],
+            [
+              8000,
+              16
+            ]
+          ],
+          "aimed": [
+            [
+              0,
+              90
+            ],
+            [
+              4000.0,
+              72
+            ],
+            [
+              8000,
+              36
+            ]
+          ]
+        }
+      },
+      "image": "assets/underwater-ufopedia-v1/guided-torpedo-launcher.png"
+    }
+  ],
+  "robot": {
+    "id": "underwater-robot",
+    "weapons": {
+      "AIR": {
+        "module": "compressed-air-cannon",
+        "ammo": "air-round",
+        "capacity": 20,
+        "damage": 8,
+        "rangeKm": 1,
+        "category": "CANNON",
+        "accuracy": {
+          "hip": 50,
+          "aimed": 80
+        },
+        "tu": {
+          "hip": 20,
+          "aimed": 35
+        }
+      },
+      "TORPEDO": {
+        "module": "underwater-torpedo-launcher",
+        "ammo": "underwater-torpedo",
+        "capacity": 4,
+        "damage": 35,
+        "rangeKm": 5,
+        "category": "TORPEDO",
+        "accuracy": {
+          "hip": 40,
+          "aimed": 85
+        },
+        "tu": {
+          "hip": 25,
+          "aimed": 40
+        }
+      },
+      "AIR_MK2": {
+        "module": "compressed-air-cannon-mk2",
+        "ammo": "air-round",
+        "capacity": 20,
+        "damage": 12,
+        "rangeKm": 2,
+        "requiresResearch": "research_underwater_ballistics",
+        "category": "CANNON",
+        "accuracy": {
+          "hip": 50,
+          "aimed": 85
+        },
+        "tu": {
+          "hip": 20,
+          "aimed": 35
+        }
+      },
+      "TORPEDO_MK2": {
+        "module": "guided-torpedo-launcher",
+        "ammo": "underwater-torpedo",
+        "capacity": 4,
+        "damage": 50,
+        "rangeKm": 8,
+        "requiresResearch": "research_underwater_guidance",
+        "category": "TORPEDO",
+        "accuracy": {
+          "hip": 40,
+          "aimed": 90
+        },
+        "tu": {
+          "hip": 25,
+          "aimed": 40
+        }
+      }
+    },
+    "footprint": [
+      4,
+      8
+    ],
+    "classicTankFootprint": [
+      4,
+      4
+    ],
+    "health": 180,
+    "timeUnits": 60
+  },
+  "research": [
+    {
+      "id": "research_underwater_ballistics",
+      "name": "High-pressure underwater cannon",
+      "enName": "High-pressure underwater cannon",
+      "description": "High-pressure underwater cannon development for the underwater robot.",
+      "requiresResearch": "research_basic_lab",
+      "researchHours": 96,
+      "researchScientists": 10,
+      "researchField": "Underwater systems",
+      "researchResult": "High-pressure underwater cannon available for manufacture, purchase and robot loadout."
+    },
+    {
+      "id": "research_underwater_guidance",
+      "name": "Guided underwater torpedoes",
+      "enName": "Guided underwater torpedoes",
+      "description": "Guided underwater torpedoes development for the underwater robot.",
+      "requiresResearch": "research_basic_lab",
+      "researchHours": 96,
+      "researchScientists": 10,
+      "researchField": "Underwater systems",
+      "researchResult": "Guided underwater torpedoes available for manufacture, purchase and robot loadout."
+    }
+  ],
+  "tankStats": {
+    "light-tank": {
+      "health": 150,
+      "timeUnits": 60,
+      "footprint": [
+        4,
+        4
+      ],
+      "hipAccuracy": 55,
+      "aimedAccuracy": 80,
+      "hipTU": 20,
+      "aimedTU": 35
+    },
+    "underwater-robot": {
+      "health": 180,
+      "timeUnits": 60,
+      "footprint": [
+        4,
+        8
+      ],
+      "hipAccuracy": 50,
+      "aimedAccuracy": 80,
+      "hipTU": 20,
+      "aimedTU": 35
+    }
+  }
+}

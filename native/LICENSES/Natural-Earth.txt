@@ -1,0 +1,12 @@
+Natural Earth II shaded relief and 1:50m country boundaries.
+Natural Earth data is in the public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+
+Raster: NE2_50M_LC_SR_W (Natural Earth II, land cover, shaded relief, water).
+https://github.com/nvkelso/natural-earth-raster/tree/master/50m_rasters/NE2_50M_LC_SR_W
+Vector:
+https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson
+
+Converted to the muted green game palette. Input hashes and provenance are
+recorded in data/globe/sources.json. Reproduction: tools/prepare_globe.py.
+No network access is required while playing.

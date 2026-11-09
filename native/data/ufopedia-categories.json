@@ -1,0 +1,45 @@
+{
+  "aircraft-equipment": [
+    "rotary-cannon",
+    "missile-rack",
+    "cannon-rounds",
+    "air-to-air-missiles",
+    "fighter-engine",
+    "hover-engine",
+    "awacs-engine",
+    "aux-radar",
+    "shield",
+    "electronics"
+  ],
+  "tank-equipment": [
+    "tank-rocket-pods",
+    "tank-rocket",
+    "tank-main-gun",
+    "tank-main-gun-round",
+    "tank-machine-gun-rounds",
+    "compressed-air-cannon",
+    "underwater-torpedo-launcher",
+    "air-round",
+    "underwater-torpedo",
+    "compressed-air-cannon-mk2",
+    "guided-torpedo-launcher"
+  ],
+  "units": [
+    "light-tank",
+    "underwater-robot"
+  ],
+  "personnel": [
+    "soldier",
+    "recruit",
+    "experienced",
+    "veteran",
+    "heavy-soldier",
+    "sniper",
+    "technician",
+    "medic",
+    "scientist",
+    "pilot",
+    "security",
+    "commander"
+  ]
+}

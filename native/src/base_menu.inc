@@ -1,0 +1,35 @@
+ void openBaseMenu(){baseMenuOpen=!baseMenuOpen;baseMenuScroll=0;globeGesture.cancel();}
+ void beginBasePlacement(){go("globe");placeBase=true;placeRadar=false;speed=0;placementFeedback=tr("Klikni na pevninu pro umístění nové báze.","Click on land to place a new base.");}
+ void beginRadarPlacement(){go("globe");speed=0;if(game.state["bases"].empty()){placeBase=true;placeRadar=false;placementFeedback=tr("Nejdříve založ první bázi.","Build the first base before placing radar stations.");return;}placeBase=false;placeRadar=true;placementFeedback=tr("Klikni na pevninu pro radarové stanoviště · stavba 10 dnů.","Click on land for a radar station · construction 10 days.");}
+ void baseMenuDialog(){
+  hits.clear();listScrollRegions.clear();card(tr("ZÁKLADNY A RADAROVÁ SÍŤ","BASES & RADAR NETWORK"),196,120,510,548);
+  std::vector<std::pair<std::string,std::function<void()>>> entries;
+  for(int i=0;i<int(game.state["bases"].size());++i){auto b=game.state["bases"][i];entries.push_back({tr("BÁZE · ","BASE · ")+b["name"].get<std::string>(),[this,i]{base=i;floor=0;go("bases");}});}
+  if(game.state.contains("radarOutposts"))for(int i=0;i<int(game.state["radarOutposts"].size());++i){auto site=game.state["radarOutposts"][i];double remaining=site["ready"].get<double>()-game.state["hours"].get<double>();entries.push_back({site["name"].get<std::string>()+" · "+site["country"].get<std::string>()+" · "+(remaining>0?tr("STAVBA ","BUILD ")+std::to_string(int(std::ceil(remaining)))+" h":tr("V PROVOZU · 2 500 km","ONLINE · 2,500 km")),[this,site]{placeBase=placeRadar=false;rotation=-site["lon"].get<double>();tilt=site["lat"];go("globe");placementFeedback=site["name"].get<std::string>();}});}
+  baseMenuScroll=std::clamp(baseMenuScroll,0,std::max(0,int(entries.size())-8));
+  for(int row=0,i=baseMenuScroll;i<int(entries.size())&&row<8;++i,++row){control(entries[i].first,214,172+row*37,460,31,entries[i].second);hits.back().name="base-menu-entry:"+std::to_string(i);}
+  if(entries.empty())small(tr("ZATÍM ŽÁDNÁ BÁZE","NO BASES YET"),214,184,dim,10);listSlider(baseMenuScroll,int(entries.size()),8,214,172,460,294,"base-menu");
+  long long baseCost=game.state["bases"].empty()?0:1000000;
+  control(tr("UMÍSTIT DALŠÍ BÁZI · ","PLACE NEW BASE · ")+cash(baseCost),214,490,474,37,[this]{beginBasePlacement();});hits.back().name="base-menu-new-base";
+  control(tr("UMÍSTIT RADAROVÉ STANOVIŠTĚ · ","PLACE RADAR STATION · ")+cash(game.constants["costs"]["radar"]),214,537,474,37,[this]{beginRadarPlacement();});hits.back().name="base-menu-new-radar";
+  control(tr("ZAVŘÍT","CLOSE"),214,604,474,34,[this]{baseMenuOpen=false;});hits.back().name="base-menu-close";
+ }
+ bool baseMenuPointer(const SDL_Event& ev){if(!baseMenuOpen)return false;if(ev.type==SDL_MOUSEBUTTONDOWN){mx=ev.button.x;my=ev.button.y;}if(ev.type==SDL_KEYDOWN&&ev.key.keysym.sym==SDLK_ESCAPE){baseMenuOpen=false;return true;}if(listScrollPointer(ev))return true;if(ev.type==SDL_MOUSEBUTTONDOWN&&ev.button.button==SDL_BUTTON_LEFT){auto copy=hits;for(auto it=copy.rbegin();it!=copy.rend();++it)if((it->name.rfind("base-menu-",0)==0||it->name=="list-scroll:base-menu")&&ev.button.x>=it->r.x&&ev.button.x<it->r.x+it->r.w&&ev.button.y>=it->r.y&&ev.button.y<it->r.y+it->r.h){it->action();return true;}baseMenuOpen=false;}return true;}
+ void globePlacementControls(){if(!placeBase&&!placeRadar&&placementFeedback.empty())return;
+  rect(205,102,588,35,panel);boundedText(placementFeedback.empty()?tr("Klikni na pevninu pro umístění báze.","Click on land to place a base."):placementFeedback,{214,110,568,21},10,bright);
+  if(!game.state["bases"].empty()){control(placeBase||placeRadar?tr("ZRUŠIT UMÍSTĚNÍ","CANCEL PLACEMENT"):tr("ZAVŘÍT","CLOSE"),205,145,190,27,[this]{placeBase=placeRadar=false;placementFeedback.clear();});hits.back().name="placement-cancel";}
+ }
+ void verifyBaseMenuUI(){
+  auto saved=game.state;auto oldPage=page,oldFeedback=placementFeedback;int oldBase=base,oldFloor=floor;double oldRotation=rotation,oldTilt=tilt,oldSpeed=speed;bool oldPlacement=placeBase,oldRadar=placeRadar;
+  game.newGame();game.createBase("ORIGIN",50,14);game.state["nextUfo"]=100000.;page="globe";placeBase=placeRadar=baseMenuOpen=false;placementFeedback.clear();
+  auto render=[this]{hits.clear();listScrollRegions.clear();rect(0,0,W,H,bg);renderScreen();if(baseMenuOpen)baseMenuDialog();};
+  auto click=[this](const std::string& name){auto found=std::find_if(hits.begin(),hits.end(),[&](const Hit& h){return h.name==name;});if(found==hits.end())throw std::runtime_error("Missing base menu action: "+name);auto action=found->action;action();};
+  auto point=[this](double lon,double lat){rotation=-lon;tilt=lat;SDL_Event ev{};ev.type=SDL_MOUSEBUTTONDOWN;ev.button.button=SDL_BUTTON_LEFT;ev.button.x=501;ev.button.y=410;handleGlobePointer(ev);ev.type=SDL_MOUSEBUTTONUP;handleGlobePointer(ev);};
+  auto money=game.state["money"].get<long long>();render();click(tr("ZÁKLADNA","BASE"));render();
+  SDL_Surface* shot=SDL_CreateRGBSurfaceWithFormat(0,W,H,32,SDL_PIXELFORMAT_ARGB8888);SDL_RenderReadPixels(renderer,nullptr,shot->format->format,shot->pixels,shot->pitch);SDL_SaveBMP(shot,(game.userDir/"base-menu-restored.bmp").string().c_str());SDL_FreeSurface(shot);
+  click("base-menu-new-base");if(page!="globe"||!placeBase||placeRadar)throw std::runtime_error("Additional base placement unavailable");render();point(151.2,-33.86);if(!editing)throw std::runtime_error("Additional base naming did not open");editText="SECOND BASE";finishInput(true);if(game.state["bases"].size()!=2||game.state["money"].get<long long>()!=money-1000000||page!="bases")throw std::runtime_error("Additional base did not preserve campaign or charge correct price");
+  render();click("BASE");render();click("base-menu-new-radar");if(!placeRadar||placeBase||page!="globe")throw std::runtime_error("Base-view radar menu route failed");render();point(-3.703,40.416);if(placeRadar||game.state["radarOutposts"].size()!=1||game.state["money"].get<long long>()!=money-1300000||game.state["radarOutposts"][0]["ready"]!=240.)throw std::runtime_error("Radar station was not actually constructed");
+  render();click(tr("ZÁKLADNA","BASE"));render();click("base-menu-new-radar");auto before=game.state;render();point(-30,0);if(game.state!=before||!placeRadar||editing)throw std::runtime_error("Ocean accepted for a radar station");render();click("placement-cancel");if(placeRadar||placeBase||game.state!=before)throw std::runtime_error("Placement cancellation changed campaign");
+  render();click(tr("ZÁKLADNA","BASE"));render();click("base-menu-entry:2");if(page!="globe"||std::abs(rotation-3.703)>.001||std::abs(tilt-40.416)>.001)throw std::runtime_error("Radar network entry did not focus its coordinates");
+  game.state=saved;page=oldPage;base=oldBase;floor=oldFloor;rotation=oldRotation;tilt=oldTilt;speed=oldSpeed;placeBase=oldPlacement;placeRadar=oldRadar;placementFeedback=oldFeedback;baseMenuOpen=false;editing=false;globeGesture.cancel();render();std::cout<<"Base menu: globe/base-view routes, second base naming/cost, real radar station, land validation, cancel and network focus passed\n";
+ }

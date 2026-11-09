@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/lib/uaa-native-dev/mapeditor/uaa-mapeditor --data /usr/lib/uaa-native-dev/mapeditor/uaa-data.pak "$@"

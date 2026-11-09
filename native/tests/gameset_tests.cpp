@@ -1,0 +1,19 @@
+#include "engine.hpp"
+#include <iostream>
+using namespace uaa;
+void check(bool v,const char* why){if(!v)throw std::runtime_error(why);}
+int main(int argc,char** argv){try{
+ check(argc==3,"Expected data and temporary directory");Engine e(argv[1],argv[2]);auto reference=e.referenceGameset();auto valid=e.validateGameset(reference,true);if(!valid.ok)throw std::runtime_error(valid.message);
+ auto set=reference;set["id"]="my-set";set["name"]="My campaign";set["reference"]=false;
+ set["weapons"][0]["startingCount"]=42;set["weapons"][0]["production"]["productionCost"]=1234;set["weapons"][0]["combat"]["tu"]["hip"]=7;set["weapons"][0]["combat"]["curves"]["hip"][0][1]=77;
+ for(auto& b:set["buildings"])if(b["id"]=="storage"){b["production"]["productionCost"]=12345;b["production"]["productionHours"]=12;}
+ set["finance"]["countries"][0]["contribution"]=123456;set["finance"]["countries"][0]["approval"]=91;
+ set["technologies"][0]["researchHours"]=24;set["technologies"][0]["researchScientists"]=3;
+ check(e.startNewGame(set).ok,"Custom gameset starts a game");check(e.referenceGameset()==reference,"Reference immutable");check(e.buildingPrice("storage")==12345&&e.buildingHours("storage")==12,"Edited construction cost and time applied");check(e.countrySupport()[0]["contribution"]==123456&&e.countrySupport()[0]["approval"]==91,"Edited country finance applied");check(e.state["stock"]["pistol"]==42,"Edited starting stock applied");check(e.record("weapons","pistol")->at("production")["productionCost"]==1234,"Edited recipe applied");check(e.record("weapons","pistol")->at("combat")["tu"]["hip"]==7,"Edited TU applied");check(e.record("technologies","research_basic_lab")->at("researchHours")==24,"Edited research applied");
+ e.createBase("Custom",50,14);e.save(1);Engine loaded(argv[1],argv[2]);check(loaded.load(1).ok,"Custom campaign loads without library");check(loaded.gameset()==set,"Campaign owns complete immutable snapshot");set["weapons"][0]["production"]["productionCost"]=900;check(loaded.record("weapons","pistol")->at("production")["productionCost"]==1234,"Later editor changes cannot alter saved campaign");
+ auto before=loaded.state,active=loaded.gameset();auto broken=readJson(e.userDir/"save-1.json");broken["gamesetSnapshot"]["weapons"][0]["production"]["productionCost"]="broken";writeJson(e.userDir/"save-2.json",broken);check(!loaded.load(2).ok&&loaded.state==before&&loaded.gameset()==active,"Bad snapshot rejected transactionally");
+ broken=readJson(e.userDir/"save-1.json");broken["money"]="broken";writeJson(e.userDir/"save-2.json",broken);check(!loaded.load(2).ok&&loaded.state==before&&loaded.gameset()==active,"Failure after snapshot rolls back selected set");
+ auto bad=set;bad["weapons"][0]["startingCount"]=-1;check(!e.validateGameset(bad).ok,"Negative number rejected");bad=set;bad["weapons"].push_back(bad["weapons"][0]);check(!e.validateGameset(bad).ok,"Duplicate IDs rejected");bad=set;bad["weapons"][0]["combat"]["curves"]["hip"][0][1]=101;check(!e.validateGameset(bad).ok,"Invalid accuracy rejected");bad=set;bad["weapons"][0]["production"]["materials"]["iron"]=1.5;check(!e.validateGameset(bad).ok,"Fractional materials rejected");bad=set;bad["weapons"][0]["image"]="../../private.png";check(!e.validateGameset(bad).ok,"Image traversal rejected");bad=set;bad["weapons"].erase(bad["weapons"].begin());check(!e.startNewGame(bad).ok,"Unplayable incomplete set rejected");
+ Engine original(argv[1],argv[2]);original.save(3);check(loaded.load(3).ok&&loaded.gameset()==reference,"Old/default campaigns switch back to reference");check(original.startNewGame(reference).ok&&!original.state.contains("gamesetSnapshot"),"Reference remains default");
+ std::cout<<"PASS: reference protection, validation, custom stock/recipes/TU/research, independent campaign snapshot, rollback and legacy saves\n";return 0;
+ }catch(const std::exception& e){std::cerr<<"FAIL: "<<e.what()<<"\n";return 1;}}

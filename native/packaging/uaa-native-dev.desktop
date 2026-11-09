@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=UFO Alien Atak Native Development
+Comment=Incomplete native C++ development port
+Exec=/usr/bin/uaa-native-dev
+TryExec=/usr/bin/uaa-native-dev
+Terminal=false
+Categories=Game;StrategyGame;

@@ -1,0 +1,106 @@
+{
+  "quarters": {
+    "cs": "50 osob: vědci, technici, piloti a navigátoři. Vojáci používají samostatná kasárna.",
+    "en": "50 personnel: scientists, technicians, pilots and navigators. Soldiers use separate barracks."
+  },
+  "soldierBarracks": {
+    "cs": "20 vojáků v jedněch kasárnách. Nejde o pracovní místa vědců či techniků.",
+    "en": "20 soldiers per barracks. Does not provide scientist or technician workplaces."
+  },
+  "research": {
+    "cs": "25 vědců na jednu dokončenou laboratoř. Kapacity více laboratoří se sčítají pro všechny aktivní projekty. Vědec pracuje vždy na jednom projektu. Referenční tým u projektu určuje rychlost výzkumu.",
+    "en": "25 scientists per completed laboratory. Multiple laboratories add workplaces shared by active projects. Each scientist works on one project. The reference team determines research speed."
+  },
+  "workshop": {
+    "cs": "25 techniků na jednu dokončenou dílnu. Kapacity více dílen se sčítají pro všechny týmy. Jeden technik vyrábí jeden kus; další pracují souběžně. Po dokončení tým přechází na další zakázku.",
+    "en": "25 technicians per completed workshop. Multiple workshops add workplaces shared by teams. One technician builds one unit; others work in parallel. Completed teams transfer to the next order."
+  },
+  "storage": {
+    "cs": "40 palet, každá 1 200 litrů. Počáteční čtyři sklady mají celkem 160 palet. Nejde o ubytování ani pracovní místa.",
+    "en": "40 pallets of 1,200 litres each. Four initial warehouses provide 160 pallets. No accommodation or staff workplaces."
+  },
+  "uraniumStorage": {
+    "cs": "10 palet pro uran, odděleně od běžného skladu.",
+    "en": "10 uranium pallets, separate from ordinary storage."
+  },
+  "gym": {
+    "cs": "Fyzický výcvik vojáků: 48 hodin na cyklus. Počet současně cvičících vojáků není omezen kapacitou budovy. Nevyžaduje přiřazeného technika ani vědce.",
+    "en": "Soldier physical training: 48 hours per cycle. No building limit on simultaneous trainees. No assigned technician or scientist required."
+  },
+  "hangar": {
+    "cs": "Letadla: současný limit flotily je 3 stíhačky, 2 vznášedla a 1 AWACS. Pravidla neurčují počet pracovníků na hangár; posádka se přiřazuje konkrétnímu letadlu.",
+    "en": "Fleet limits: 3 fighters, 2 hovercraft and 1 AWACS. No staff count per hangar is specified; crew is assigned to each aircraft."
+  },
+  "classroom": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "command": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "crewTraining": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "datacenter": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "defence": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "elevator": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "flightTraining": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "hospital": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "pilotTraining": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "power": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "radar": {
+    "cs": "Dosah 2 500 km. Zachycuje UFO ve vzduchu  po dosednutí na pevninu i v moři. Pracuje po dokončení stavby; neposkytuje ubytování ani pracovní místa.",
+    "en": "Range 2,500 km. Detects airborne UFOs and UFOs that have landed on land or at sea. Requires completed construction; provides no accommodation or staff workplaces."
+  },
+  "radarLarge": {
+    "cs": "Dosah 5 000 km. Zachycuje UFO ve vzduchu  po dosednutí na pevninu i v moři. Pracuje po dokončení stavby; neposkytuje ubytování ani pracovní místa.",
+    "en": "Range 5,000 km. Detects airborne UFOs and UFOs that have landed on land or at sea. Requires completed construction; provides no accommodation or staff workplaces."
+  },
+  "residential": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "rest": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "satellite": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "alien-containment": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "decontamination": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  },
+  "runway": {
+    "cs": "Samostatná kapacita personálu ani pracovní tým nejsou v současných pravidlech stanoveny. Objekt neposkytuje místa v ubytovně či kasárnách.",
+    "en": "Current rules specify no separate staff capacity or assigned team. Does not add living-quarter or barracks places."
+  }
+}

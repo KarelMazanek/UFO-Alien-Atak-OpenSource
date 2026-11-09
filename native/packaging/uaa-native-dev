@@ -1,0 +1,17 @@
+#!/bin/sh
+# Keep startup diagnostics visible when launched from the applications menu.
+uaa_log_root="${XDG_STATE_HOME:-$HOME/.local/state}/uaa-native-dev"
+mkdir -p "$uaa_log_root" 2>/dev/null || exit 1
+uaa_log="$uaa_log_root/startup.log"
+/usr/lib/uaa-native-dev/uaa-native "$@" >"$uaa_log" 2>&1
+uaa_status=$?
+if [ "$uaa_status" -ne 0 ]; then
+    cat "$uaa_log" >&2
+    uaa_message="UAA se nepodařilo spustit (kód $uaa_status). Podrobnosti: $uaa_log"
+    if command -v zenity >/dev/null 2>&1; then
+        zenity --error --title="UFO Alien Atak" --text="$uaa_message" 2>/dev/null
+    elif command -v xmessage >/dev/null 2>&1; then
+        xmessage "$uaa_message" 2>/dev/null
+    fi
+fi
+exit "$uaa_status"

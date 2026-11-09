@@ -1,0 +1,17 @@
+{
+  "reference": "Original HTML ISS stocks, consumption, emergency 0.35, orbit boost, impact probabilities and supply values; wear and individual system damage added at user request.",
+  "crew": 7,
+  "stockScale": 2.3333333333333335,
+  "initial": {"oxygen": 420, "water": 420, "food": 420, "spares": 120, "propellant": 40},
+  "maximum": {"oxygen": 420, "water": 420, "food": 420, "spares": 120, "propellant": 50},
+  "dailyUsePerCrew": {"oxygen": 0.75, "water": 1, "food": 1, "spares": 0.06},
+  "dailyWear": {"hull": 0.03, "power": 0.015, "lifeSupport": 0.02, "communications": 0.01, "science": 0.015},
+  "repairHours": 24,
+  "repairSpares": 10,
+  "repairRestore": 30,
+  "emergencyUse": 0.35,
+  "lifeSupportThreshold": 40,
+  "supply": {"oxygen": 105, "water": 128.33333333333334, "food": 140, "spares": 45, "propellant": 18},
+  "supplyCost": {"florida": 850000, "baikonur": 720000},
+  "transitHours": {"florida": 48, "baikonur": 72}
+}

@@ -1,0 +1,4707 @@
+{
+  "as_of": "2026-10-20",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson",
+      "license": "Public domain"
+    },
+    {
+      "url": "https://api.worldbank.org/v2/country?format=json&per_page=400"
+    },
+    {
+      "url": "https://github.com/unicode-org/cldr-json",
+      "license": "Unicode-3.0"
+    },
+    {
+      "url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley"
+    },
+    {
+      "url": "https://ikn.go.id/id/posts/pembangunan-tahap-ii-ikn-terus-berjalan-otorita-ikn-lakukan-evaluasi-berkala"
+    },
+    {
+      "url": "https://www.gov.za/south-africa-glance"
+    },
+    {
+      "url": "https://www.akorda.kz/public/en/republic_of_kazakhstan/akorda"
+    },
+    {
+      "url": "https://primature.gov.bi/presentation-generale/"
+    },
+    {
+      "url": "https://www.mfa.gov.lk/en/national-profile-and-geography"
+    },
+    {
+      "url": "https://www.mkn.gov.my/web/ms/2022/09/13/tinta-bicara-hari-malaysia-kenali-wilayah-persekutuan/"
+    },
+    {
+      "url": "https://www.dfat.gov.au/geo/kiribati/kiribati-country-brief"
+    },
+    {
+      "url": "https://www.palaugov.pw/"
+    },
+    {
+      "url": "https://www.palaugov.pw/wp-content/uploads/2021/12/2021-2030-National-Infrastructure-Investment-Plan.pdf"
+    },
+    {
+      "url": "https://mom-ye.com/site-en/al-shamasy-meets-with-the-leadership-of-the-geological-survey-and-mineral-resources-authority-in-the-temporary-capital-aden/"
+    }
+  ],
+  "countries": [
+    {
+      "country": "Zimbabwe",
+      "country_en": "Zimbabwe",
+      "country_cs": "Zimbabwe",
+      "code": "ZWE",
+      "iso2": "ZW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Harare",
+          "name_cs": "Harare",
+          "lat": -17.815844,
+          "lon": 31.042764,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Zambia",
+      "country_en": "Zambia",
+      "country_cs": "Zambie",
+      "code": "ZMB",
+      "iso2": "ZM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Lusaka",
+          "name_cs": "Lusaka",
+          "lat": -15.414698,
+          "lon": 28.281382,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Yemen",
+      "country_en": "Yemen",
+      "country_cs": "Jemen",
+      "code": "YEM",
+      "iso2": "YE",
+      "type": "Sovereign country",
+      "note_cs": "Saná je hlavní město; Aden je dočasné sídlo mezinárodně uznávané vlády.",
+      "cities": [
+        {
+          "name": "Sanaa",
+          "name_cs": "Saná",
+          "lat": 15.356679,
+          "lon": 44.204648,
+          "role": "capital"
+        },
+        {
+          "name": "Aden",
+          "name_cs": "Aden",
+          "lat": 12.7855,
+          "lon": 45.0187,
+          "role": "temporary"
+        }
+      ],
+      "note_en": "Sanaa is the capital; Aden is the temporary seat of the internationally recognized government."
+    },
+    {
+      "country": "Vietnam",
+      "country_en": "Vietnam",
+      "country_cs": "Vietnam",
+      "code": "VNM",
+      "iso2": "VN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Hanoi",
+          "name_cs": "Hanoj",
+          "lat": 21.035273,
+          "lon": 105.848068,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Venezuela",
+      "country_en": "Venezuela",
+      "country_cs": "Venezuela",
+      "code": "VEN",
+      "iso2": "VE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Caracas",
+          "name_cs": "Caracas",
+          "lat": 10.502944,
+          "lon": -66.918983,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Vatican",
+      "country_en": "Vatican City",
+      "country_cs": "Vatikán",
+      "code": "VAT",
+      "iso2": "VA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Vatican City",
+          "name_cs": "Vatikán",
+          "lat": 41.903282,
+          "lon": 12.453387,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Vanuatu",
+      "country_en": "Vanuatu",
+      "country_cs": "Vanuatu",
+      "code": "VUT",
+      "iso2": "VU",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port Vila",
+          "name_cs": "Port Vila",
+          "lat": -17.73335,
+          "lon": 168.316641,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Uzbekistan",
+      "country_en": "Uzbekistan",
+      "country_cs": "Uzbekistán",
+      "code": "UZB",
+      "iso2": "UZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tashkent",
+          "name_cs": "Taškent",
+          "lat": 41.313648,
+          "lon": 69.292987,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Uruguay",
+      "country_en": "Uruguay",
+      "country_cs": "Uruguay",
+      "code": "URY",
+      "iso2": "UY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Montevideo",
+          "name_cs": "Montevideo",
+          "lat": -34.856096,
+          "lon": -56.172998,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Micronesia",
+      "country_en": "Federated States of Micronesia",
+      "country_cs": "Mikronésie",
+      "code": "FSM",
+      "iso2": "FM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Palikir",
+          "name_cs": "Palikir",
+          "lat": 6.916644,
+          "lon": 158.149974,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Marshall Is.",
+      "country_en": "Marshall Islands",
+      "country_cs": "Marshallovy ostrovy",
+      "code": "MHL",
+      "iso2": "MH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Majuro",
+          "name_cs": "Majuro",
+          "lat": 7.103004,
+          "lon": 171.38,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "N. Mariana Is.",
+      "country_en": "Northern Mariana Islands",
+      "country_cs": "Severní Mariany",
+      "code": "MNP",
+      "iso2": "MP",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saipan",
+          "name_cs": "Saipan",
+          "lat": 15.1935,
+          "lon": 145.765,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "U.S. Virgin Is.",
+      "country_en": "United States Virgin Islands",
+      "country_cs": "Americké Panenské ostrovy",
+      "code": "VIR",
+      "iso2": "VI",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Charlotte Amalie",
+          "name_cs": "Charlotte Amalie",
+          "lat": 18.3358,
+          "lon": -64.8963,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guam",
+      "country_en": "Guam",
+      "country_cs": "Guam",
+      "code": "GUM",
+      "iso2": "GU",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Agana",
+          "name_cs": "Agana",
+          "lat": 13.470016,
+          "lon": 144.750017,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "American Samoa",
+      "country_en": "American Samoa",
+      "country_cs": "Americká Samoa",
+      "code": "ASM",
+      "iso2": "AS",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Pago Pago",
+          "name_cs": "Pago Pago",
+          "lat": -14.276611,
+          "lon": -170.706645,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Puerto Rico",
+      "country_en": "Puerto Rico",
+      "country_cs": "Portoriko",
+      "code": "PRI",
+      "iso2": "PR",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "San Juan",
+          "name_cs": "San Juan",
+          "lat": 18.23,
+          "lon": -66.0,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "United States of America",
+      "country_en": "United States of America",
+      "country_cs": "Spojené státy",
+      "code": "USA",
+      "iso2": "US",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Washington,  D.C.",
+          "name_cs": "Washington,  D.C.",
+          "lat": 38.901495,
+          "lon": -77.011364,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "S. Geo. and the Is.",
+      "country_en": "South Georgia and the South Sandwich Islands",
+      "country_cs": "Jižní Georgie a Jižní Sandwichovy ostrovy",
+      "code": "SGS",
+      "iso2": "GS",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "King Edward Point",
+          "name_cs": "King Edward Point",
+          "lat": -54.2833,
+          "lon": -36.5,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Br. Indian Ocean Ter.",
+      "country_en": "British Indian Ocean Territory",
+      "country_cs": "Britské indickooceánské území",
+      "code": "IOT",
+      "iso2": "IO",
+      "type": "Disputed",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Diego Garcia",
+          "name_cs": "Diego Garcia",
+          "lat": -7.3133,
+          "lon": 72.4111,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Saint Helena",
+      "country_en": "Saint Helena",
+      "country_cs": "Svatá Helena",
+      "code": "SHN",
+      "iso2": "SH",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Jamestown",
+          "name_cs": "Jamestown",
+          "lat": -15.925,
+          "lon": -5.7181,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Pitcairn Is.",
+      "country_en": "Pitcairn Islands",
+      "country_cs": "Pitcairnovy ostrovy",
+      "code": "PCN",
+      "iso2": "PN",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Adamstown",
+          "name_cs": "Adamstown",
+          "lat": -25.0667,
+          "lon": -130.1,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Anguilla",
+      "country_en": "Anguilla",
+      "country_cs": "Anguilla",
+      "code": "AIA",
+      "iso2": "AI",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "The Valley",
+          "name_cs": "The Valley",
+          "lat": 18.217,
+          "lon": -63.057,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Falkland Is.",
+      "country_en": "Falkland Islands",
+      "country_cs": "Falklandské ostrovy",
+      "code": "FLK",
+      "iso2": "FK",
+      "type": "Disputed",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Stanley",
+          "name_cs": "Stanley",
+          "lat": -51.700011,
+          "lon": -57.849968,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cayman Is.",
+      "country_en": "Cayman Islands",
+      "country_cs": "Kajmanské ostrovy",
+      "code": "CYM",
+      "iso2": "KY",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "George Town",
+          "name_cs": "George Town",
+          "lat": 19.280437,
+          "lon": -81.329982,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bermuda",
+      "country_en": "Bermuda",
+      "country_cs": "Bermudy",
+      "code": "BMU",
+      "iso2": "BM",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Hamilton",
+          "name_cs": "Hamilton",
+          "lat": 32.29419,
+          "lon": -64.783937,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "British Virgin Is.",
+      "country_en": "British Virgin Islands",
+      "country_cs": "Britské Panenské ostrovy",
+      "code": "VGB",
+      "iso2": "VG",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Road Town",
+          "name_cs": "Road Town",
+          "lat": 18.431389,
+          "lon": -64.623056,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Turks and Caicos Is.",
+      "country_en": "Turks and Caicos Islands",
+      "country_cs": "Turks a Caicos",
+      "code": "TCA",
+      "iso2": "TC",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Grand Turk",
+          "name_cs": "Grand Turk",
+          "lat": 21.466427,
+          "lon": -71.135979,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Montserrat",
+      "country_en": "Montserrat",
+      "country_cs": "Montserrat",
+      "code": "MSR",
+      "iso2": "MS",
+      "type": "Dependency",
+      "note_cs": "Brades je dočasné sídlo vlády; Plymouth byl opuštěn po erupci.",
+      "cities": [
+        {
+          "name": "Brades",
+          "name_cs": "Brades",
+          "lat": 16.7928,
+          "lon": -62.2106,
+          "role": "government"
+        }
+      ],
+      "note_en": "Brades is the temporary government seat; Plymouth was abandoned after volcanic eruptions."
+    },
+    {
+      "country": "Jersey",
+      "country_en": "Jersey",
+      "country_cs": "Jersey",
+      "code": "JEY",
+      "iso2": "JE",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saint Helier",
+          "name_cs": "Saint Helier",
+          "lat": 49.1868,
+          "lon": -2.1066,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guernsey",
+      "country_en": "Guernsey",
+      "country_cs": "Guernsey",
+      "code": "GGY",
+      "iso2": "GG",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saint Peter Port",
+          "name_cs": "Saint Peter Port",
+          "lat": 49.455,
+          "lon": -2.5368,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Isle of Man",
+      "country_en": "Isle of Man",
+      "country_cs": "Ostrov Man",
+      "code": "IMN",
+      "iso2": "IM",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Douglas",
+          "name_cs": "Douglas",
+          "lat": 54.150427,
+          "lon": -4.480021,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "United Kingdom",
+      "country_en": "United Kingdom",
+      "country_cs": "Spojené království",
+      "code": "GBR",
+      "iso2": "GB",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "London",
+          "name_cs": "Londýn",
+          "lat": 51.501941,
+          "lon": -0.118668,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "United Arab Emirates",
+      "country_en": "United Arab Emirates",
+      "country_cs": "Spojené arabské emiráty",
+      "code": "ARE",
+      "iso2": "AE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Abu Dhabi",
+          "name_cs": "Abú Zabí",
+          "lat": 24.466684,
+          "lon": 54.366593,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Ukraine",
+      "country_en": "Ukraine",
+      "country_cs": "Ukrajina",
+      "code": "UKR",
+      "iso2": "UA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kyiv",
+          "name_cs": "Kyjev",
+          "lat": 50.435313,
+          "lon": 30.514682,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Uganda",
+      "country_en": "Uganda",
+      "country_cs": "Uganda",
+      "code": "UGA",
+      "iso2": "UG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kampala",
+          "name_cs": "Kampala",
+          "lat": 0.318605,
+          "lon": 32.581378,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Turkmenistan",
+      "country_en": "Turkmenistan",
+      "country_cs": "Turkmenistán",
+      "code": "TKM",
+      "iso2": "TM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ashgabat",
+          "name_cs": "Ašchabad",
+          "lat": 37.949995,
+          "lon": 58.383299,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Turkey",
+      "country_en": "Turkey",
+      "country_cs": "Turecko",
+      "code": "TUR",
+      "iso2": "TR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ankara",
+          "name_cs": "Ankara",
+          "lat": 39.929184,
+          "lon": 32.862446,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Tunisia",
+      "country_en": "Tunisia",
+      "country_cs": "Tunisko",
+      "code": "TUN",
+      "iso2": "TN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tunis",
+          "name_cs": "Tunis",
+          "lat": 36.802778,
+          "lon": 10.179678,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "country_en": "Trinidad and Tobago",
+      "country_cs": "Trinidad a Tobago",
+      "code": "TTO",
+      "iso2": "TT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port-of-Spain",
+          "name_cs": "Port-of-Spain",
+          "lat": 10.651997,
+          "lon": -61.517031,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Tonga",
+      "country_en": "Tonga",
+      "country_cs": "Tonga",
+      "code": "TON",
+      "iso2": "TO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nuku'alofa",
+          "name_cs": "Nuku'alofa",
+          "lat": -21.138512,
+          "lon": -175.220565,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Togo",
+      "country_en": "Togo",
+      "country_cs": "Togo",
+      "code": "TGO",
+      "iso2": "TG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Lomé",
+          "name_cs": "Lomé",
+          "lat": 6.133883,
+          "lon": 1.220811,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Timor-Leste",
+      "country_en": "East Timor",
+      "country_cs": "Východní Timor",
+      "code": "TLS",
+      "iso2": "TL",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dili",
+          "name_cs": "Dili",
+          "lat": -8.559388,
+          "lon": 125.579456,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Thailand",
+      "country_en": "Thailand",
+      "country_cs": "Thajsko",
+      "code": "THA",
+      "iso2": "TH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bangkok",
+          "name_cs": "Bangkok",
+          "lat": 13.751945,
+          "lon": 100.514699,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Tanzania",
+      "country_en": "Tanzania",
+      "country_cs": "Tanzanie",
+      "code": "TZA",
+      "iso2": "TZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dodoma",
+          "name_cs": "Dodoma",
+          "lat": -6.183306,
+          "lon": 35.750004,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Tajikistan",
+      "country_en": "Tajikistan",
+      "country_cs": "Tádžikistán",
+      "code": "TJK",
+      "iso2": "TJ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dushanbe",
+          "name_cs": "Dušanbe",
+          "lat": 38.560035,
+          "lon": 68.773879,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Taiwan",
+      "country_en": "Taiwan",
+      "country_cs": "Tchaj-wan",
+      "code": "TWN",
+      "iso2": "TW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Taipei",
+          "name_cs": "Tchaj-pej",
+          "lat": 25.035833,
+          "lon": 121.568333,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Syria",
+      "country_en": "Syria",
+      "country_cs": "Sýrie",
+      "code": "SYR",
+      "iso2": "SY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Damascus",
+          "name_cs": "Damašek",
+          "lat": 33.50198,
+          "lon": 36.29805,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Switzerland",
+      "country_en": "Switzerland",
+      "country_cs": "Švýcarsko",
+      "code": "CHE",
+      "iso2": "CH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bern",
+          "name_cs": "Bern",
+          "lat": 46.916683,
+          "lon": 7.466976,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Sweden",
+      "country_en": "Sweden",
+      "country_cs": "Švédsko",
+      "code": "SWE",
+      "iso2": "SE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Stockholm",
+          "name_cs": "Stockholm",
+          "lat": 59.352706,
+          "lon": 18.095389,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "eSwatini",
+      "country_en": "Eswatini",
+      "country_cs": "Eswatini",
+      "code": "SWZ",
+      "iso2": "SZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Mbabane",
+          "name_cs": "Mbabane",
+          "lat": -26.3054,
+          "lon": 31.1367,
+          "role": "executive"
+        },
+        {
+          "name": "Lobamba",
+          "name_cs": "Lobamba",
+          "lat": -26.4667,
+          "lon": 31.2,
+          "role": "legislative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Suriname",
+      "country_en": "Suriname",
+      "country_cs": "Surinam",
+      "code": "SUR",
+      "iso2": "SR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Paramaribo",
+          "name_cs": "Paramaribo",
+          "lat": 5.83503,
+          "lon": -55.167031,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "S. Sudan",
+      "country_en": "South Sudan",
+      "country_cs": "Jižní Súdán",
+      "code": "SDS",
+      "iso2": "SS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Juba",
+          "name_cs": "Juba",
+          "lat": 4.8517,
+          "lon": 31.5825,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Sudan",
+      "country_en": "Sudan",
+      "country_cs": "Súdán",
+      "code": "SDN",
+      "iso2": "SD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Khartoum",
+          "name_cs": "Chartúm",
+          "lat": 15.590024,
+          "lon": 32.532233,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Sri Lanka",
+      "country_en": "Sri Lanka",
+      "country_cs": "Srí Lanka",
+      "code": "LKA",
+      "iso2": "LK",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Sri Jayawardenepura Kotte",
+          "name_cs": "Šrí Džajavardanapura Kotte",
+          "lat": 6.8941,
+          "lon": 79.9028,
+          "role": "capital"
+        },
+        {
+          "name": "Colombo",
+          "name_cs": "Kolombo",
+          "lat": 6.9271,
+          "lon": 79.8612,
+          "role": "government"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Spain",
+      "country_en": "Spain",
+      "country_cs": "Španělsko",
+      "code": "ESP",
+      "iso2": "ES",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Madrid",
+          "name_cs": "Madrid",
+          "lat": 40.401972,
+          "lon": -3.685298,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "South Korea",
+      "country_en": "South Korea",
+      "country_cs": "Jižní Korea",
+      "code": "KOR",
+      "iso2": "KR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Seoul",
+          "name_cs": "Soul",
+          "lat": 37.568295,
+          "lon": 126.997785,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "South Africa",
+      "country_en": "South Africa",
+      "country_cs": "Jihoafrická republika",
+      "code": "ZAF",
+      "iso2": "ZA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Pretoria",
+          "name_cs": "Pretoria",
+          "lat": -25.7479,
+          "lon": 28.2293,
+          "role": "executive"
+        },
+        {
+          "name": "Cape Town",
+          "name_cs": "Kapské Město",
+          "lat": -33.9249,
+          "lon": 18.4241,
+          "role": "legislative"
+        },
+        {
+          "name": "Bloemfontein",
+          "name_cs": "Bloemfontein",
+          "lat": -29.0852,
+          "lon": 26.1596,
+          "role": "judicial"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Somalia",
+      "country_en": "Somalia",
+      "country_cs": "Somálsko",
+      "code": "SOM",
+      "iso2": "SO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Mogadishu",
+          "name_cs": "Mogadišo",
+          "lat": 2.068627,
+          "lon": 45.364732,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Somaliland",
+      "country_en": "Somaliland",
+      "country_cs": "Somaliland",
+      "code": "SOL",
+      "iso2": "-99",
+      "type": "Sovereign country",
+      "note_cs": "De facto správní centrum Somalilandu; mezinárodní status je sporný.",
+      "cities": [
+        {
+          "name": "Hargeisa",
+          "name_cs": "Hargeisa",
+          "lat": 9.560022,
+          "lon": 44.06531,
+          "role": "de_facto"
+        }
+      ],
+      "note_en": "De facto administrative center of Somaliland; international status is disputed."
+    },
+    {
+      "country": "Solomon Is.",
+      "country_en": "Solomon Islands",
+      "country_cs": "Šalamounovy ostrovy",
+      "code": "SLB",
+      "iso2": "SB",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Honiara",
+          "name_cs": "Honiara",
+          "lat": -9.437994,
+          "lon": 159.949766,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Slovakia",
+      "country_en": "Slovakia",
+      "country_cs": "Slovensko",
+      "code": "SVK",
+      "iso2": "SK",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bratislava",
+          "name_cs": "Bratislava",
+          "lat": 48.150018,
+          "lon": 17.116981,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Slovenia",
+      "country_en": "Slovenia",
+      "country_cs": "Slovinsko",
+      "code": "SVN",
+      "iso2": "SI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ljubljana",
+          "name_cs": "Lublaň",
+          "lat": 46.055288,
+          "lon": 14.514969,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Singapore",
+      "country_en": "Singapore",
+      "country_cs": "Singapur",
+      "code": "SGP",
+      "iso2": "SG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Singapore",
+          "name_cs": "Singapur",
+          "lat": 1.294979,
+          "lon": 103.853875,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Sierra Leone",
+      "country_en": "Sierra Leone",
+      "country_cs": "Sierra Leone",
+      "code": "SLE",
+      "iso2": "SL",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Freetown",
+          "name_cs": "Freetown",
+          "lat": 8.471957,
+          "lon": -13.236162,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Seychelles",
+      "country_en": "Seychelles",
+      "country_cs": "Seychely",
+      "code": "SYC",
+      "iso2": "SC",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Victoria",
+          "name_cs": "Victoria",
+          "lat": -4.616632,
+          "lon": 55.44999,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Serbia",
+      "country_en": "Serbia",
+      "country_cs": "Srbsko",
+      "code": "SRB",
+      "iso2": "RS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Belgrade",
+          "name_cs": "Bělehrad",
+          "lat": 44.820591,
+          "lon": 20.466045,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Senegal",
+      "country_en": "Senegal",
+      "country_cs": "Senegal",
+      "code": "SEN",
+      "iso2": "SN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dakar",
+          "name_cs": "Dakar",
+          "lat": 14.717778,
+          "lon": -17.475076,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Saudi Arabia",
+      "country_en": "Saudi Arabia",
+      "country_cs": "Saúdská Arábie",
+      "code": "SAU",
+      "iso2": "SA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Riyadh",
+          "name_cs": "Rijád",
+          "lat": 24.642779,
+          "lon": 46.770796,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "São Tomé and Principe",
+      "country_en": "São Tomé and Príncipe",
+      "country_cs": "Svatý Tomáš a Princův ostrov",
+      "code": "STP",
+      "iso2": "ST",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "São Tomé",
+          "name_cs": "Svatý Tomáš",
+          "lat": 0.333402,
+          "lon": 6.733325,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "San Marino",
+      "country_en": "San Marino",
+      "country_cs": "San Marino",
+      "code": "SMR",
+      "iso2": "SM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "San Marino",
+          "name_cs": "San Marino",
+          "lat": 43.936096,
+          "lon": 12.44177,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Samoa",
+      "country_en": "Samoa",
+      "country_cs": "Samoa",
+      "code": "WSM",
+      "iso2": "WS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Apia",
+          "name_cs": "Apia",
+          "lat": -13.841545,
+          "lon": -171.738642,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "St. Vin. and Gren.",
+      "country_en": "Saint Vincent and the Grenadines",
+      "country_cs": "Svatý Vincenc a Grenadiny",
+      "code": "VCT",
+      "iso2": "VC",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kingstown",
+          "name_cs": "Kingstown",
+          "lat": 13.148279,
+          "lon": -61.212062,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Saint Lucia",
+      "country_en": "Saint Lucia",
+      "country_cs": "Svatá Lucie",
+      "code": "LCA",
+      "iso2": "LC",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Castries",
+          "name_cs": "Castries",
+          "lat": 14.001974,
+          "lon": -61.000008,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "St. Kitts and Nevis",
+      "country_en": "Saint Kitts and Nevis",
+      "country_cs": "Svatý Kryštof a Nevis",
+      "code": "KNA",
+      "iso2": "KN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Basseterre",
+          "name_cs": "Basseterre",
+          "lat": 17.302031,
+          "lon": -62.717009,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Rwanda",
+      "country_en": "Rwanda",
+      "country_cs": "Rwanda",
+      "code": "RWA",
+      "iso2": "RW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kigali",
+          "name_cs": "Kigali",
+          "lat": -1.951644,
+          "lon": 30.058586,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Russia",
+      "country_en": "Russia",
+      "country_cs": "Rusko",
+      "code": "RUS",
+      "iso2": "RU",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Moscow",
+          "name_cs": "Moskva",
+          "lat": 55.75411,
+          "lon": 37.613577,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Romania",
+      "country_en": "Romania",
+      "country_cs": "Rumunsko",
+      "code": "ROU",
+      "iso2": "RO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bucharest",
+          "name_cs": "Bukurešť",
+          "lat": 44.435318,
+          "lon": 26.098001,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Qatar",
+      "country_en": "Qatar",
+      "country_cs": "Katar",
+      "code": "QAT",
+      "iso2": "QA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Doha",
+          "name_cs": "Dauhá",
+          "lat": 25.286556,
+          "lon": 51.532968,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Portugal",
+      "country_en": "Portugal",
+      "country_cs": "Portugalsko",
+      "code": "PRT",
+      "iso2": "PT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Lisbon",
+          "name_cs": "Lisabon",
+          "lat": 38.724669,
+          "lon": -9.146812,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Poland",
+      "country_en": "Poland",
+      "country_cs": "Polsko",
+      "code": "POL",
+      "iso2": "PL",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Warsaw",
+          "name_cs": "Varšava",
+          "lat": 52.251947,
+          "lon": 20.998054,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Philippines",
+      "country_en": "Philippines",
+      "country_cs": "Filipíny",
+      "code": "PHL",
+      "iso2": "PH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Manila",
+          "name_cs": "Manila",
+          "lat": 14.606105,
+          "lon": 120.980271,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Peru",
+      "country_en": "Peru",
+      "country_cs": "Peru",
+      "code": "PER",
+      "iso2": "PE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Lima",
+          "name_cs": "Lima",
+          "lat": -12.046067,
+          "lon": -77.052008,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Paraguay",
+      "country_en": "Paraguay",
+      "country_cs": "Paraguay",
+      "code": "PRY",
+      "iso2": "PY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Asunción",
+          "name_cs": "Asunción",
+          "lat": -25.294457,
+          "lon": -57.643451,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Papua New Guinea",
+      "country_en": "Papua New Guinea",
+      "country_cs": "Papua-Nová Guinea",
+      "code": "PNG",
+      "iso2": "PG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port Moresby",
+          "name_cs": "Port Moresby",
+          "lat": -9.464708,
+          "lon": 147.192504,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Panama",
+      "country_en": "Panama",
+      "country_cs": "Panama",
+      "code": "PAN",
+      "iso2": "PA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Panama City",
+          "name_cs": "Ciudad de Panamá",
+          "lat": 8.969963,
+          "lon": -79.534983,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Palau",
+      "country_en": "Palau",
+      "country_cs": "Palau",
+      "code": "PLW",
+      "iso2": "PW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ngerulmud",
+          "name_cs": "Ngerulmud",
+          "lat": 7.5006,
+          "lon": 134.6242,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Pakistan",
+      "country_en": "Pakistan",
+      "country_cs": "Pákistán",
+      "code": "PAK",
+      "iso2": "PK",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Islamabad",
+          "name_cs": "Islámábád",
+          "lat": 33.701942,
+          "lon": 73.164689,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Oman",
+      "country_en": "Oman",
+      "country_cs": "Omán",
+      "code": "OMN",
+      "iso2": "OM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Muscat",
+          "name_cs": "Maskat",
+          "lat": 23.613325,
+          "lon": 58.593312,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Norway",
+      "country_en": "Norway",
+      "country_cs": "Norsko",
+      "code": "NOR",
+      "iso2": "NO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Oslo",
+          "name_cs": "Oslo",
+          "lat": 59.918636,
+          "lon": 10.748033,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "North Korea",
+      "country_en": "North Korea",
+      "country_cs": "Severní Korea",
+      "code": "PRK",
+      "iso2": "KP",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Pyongyang",
+          "name_cs": "Pchjongjang",
+          "lat": 39.021385,
+          "lon": 125.752745,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Nigeria",
+      "country_en": "Nigeria",
+      "country_cs": "Nigérie",
+      "code": "NGA",
+      "iso2": "NG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Abuja",
+          "name_cs": "Abuja",
+          "lat": 9.085279,
+          "lon": 7.531382,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Niger",
+      "country_en": "Niger",
+      "country_cs": "Niger",
+      "code": "NER",
+      "iso2": "NE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Niamey",
+          "name_cs": "Niamey",
+          "lat": 13.518652,
+          "lon": 2.11471,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Nicaragua",
+      "country_en": "Nicaragua",
+      "country_cs": "Nikaragua",
+      "code": "NIC",
+      "iso2": "NI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Managua",
+          "name_cs": "Managua",
+          "lat": 12.154962,
+          "lon": -86.270438,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "New Zealand",
+      "country_en": "New Zealand",
+      "country_cs": "Nový Zéland",
+      "code": "NZL",
+      "iso2": "NZ",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Wellington",
+          "name_cs": "Wellington",
+          "lat": -41.299988,
+          "lon": 174.783266,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Niue",
+      "country_en": "Niue",
+      "country_cs": "Niue",
+      "code": "NIU",
+      "iso2": "NU",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Alofi",
+          "name_cs": "Alofi",
+          "lat": -19.055,
+          "lon": -169.9187,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cook Is.",
+      "country_en": "Cook Islands",
+      "country_cs": "Cookovy ostrovy",
+      "code": "COK",
+      "iso2": "CK",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Avarua",
+          "name_cs": "Avarua",
+          "lat": -21.2078,
+          "lon": -159.775,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Netherlands",
+      "country_en": "Netherlands",
+      "country_cs": "Nizozemsko",
+      "code": "NLD",
+      "iso2": "NL",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Amsterdam",
+          "name_cs": "Amsterdam",
+          "lat": 52.3676,
+          "lon": 4.9041,
+          "role": "capital"
+        },
+        {
+          "name": "The Hague",
+          "name_cs": "Haag",
+          "lat": 52.0705,
+          "lon": 4.3007,
+          "role": "government"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Aruba",
+      "country_en": "Aruba",
+      "country_cs": "Aruba",
+      "code": "ABW",
+      "iso2": "AW",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Oranjestad",
+          "name_cs": "Oranjestad",
+          "lat": 12.530384,
+          "lon": -70.028992,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Curaçao",
+      "country_en": "Curaçao",
+      "country_cs": "Curaçao",
+      "code": "CUW",
+      "iso2": "CW",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Willemstad",
+          "name_cs": "Willemstad",
+          "lat": 12.20043,
+          "lon": -69.019984,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Nepal",
+      "country_en": "Nepal",
+      "country_cs": "Nepál",
+      "code": "NPL",
+      "iso2": "NP",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kathmandu",
+          "name_cs": "Káthmándú",
+          "lat": 27.718638,
+          "lon": 85.314696,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Nauru",
+      "country_en": "Nauru",
+      "country_cs": "Nauru",
+      "code": "NRU",
+      "iso2": "NR",
+      "type": "Sovereign country",
+      "note_cs": "Nauru nemá oficiální hlavní město; Yaren je sídlem vlády.",
+      "cities": [
+        {
+          "name": "Yaren",
+          "name_cs": "Yaren",
+          "lat": -0.5477,
+          "lon": 166.9209,
+          "role": "de_facto"
+        }
+      ],
+      "note_en": "Nauru has no official capital; Yaren is the seat of government."
+    },
+    {
+      "country": "Namibia",
+      "country_en": "Namibia",
+      "country_cs": "Namibie",
+      "code": "NAM",
+      "iso2": "NA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Windhoek",
+          "name_cs": "Windhoek",
+          "lat": -22.570006,
+          "lon": 17.083546,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mozambique",
+      "country_en": "Mozambique",
+      "country_cs": "Mosambik",
+      "code": "MOZ",
+      "iso2": "MZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Maputo",
+          "name_cs": "Maputo",
+          "lat": -25.953332,
+          "lon": 32.587217,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Morocco",
+      "country_en": "Morocco",
+      "country_cs": "Maroko",
+      "code": "MAR",
+      "iso2": "MA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Rabat",
+          "name_cs": "Rabat",
+          "lat": 34.025307,
+          "lon": -6.836408,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "W. Sahara",
+      "country_en": "Western Sahara",
+      "country_cs": "Západní Sahara",
+      "code": "SAH",
+      "iso2": "EH",
+      "type": "Indeterminate",
+      "note_cs": "Sporné území Západní Sahary; správní kontrola a nároky se liší.",
+      "cities": [
+        {
+          "name": "Bir Lehlou",
+          "name_cs": "Bir Lehlou",
+          "lat": 26.119167,
+          "lon": -9.652522,
+          "role": "administrative"
+        }
+      ],
+      "note_en": "Disputed territory of Western Sahara; administrative control and claims differ."
+    },
+    {
+      "country": "Montenegro",
+      "country_en": "Montenegro",
+      "country_cs": "Černá Hora",
+      "code": "MNE",
+      "iso2": "ME",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Podgorica",
+          "name_cs": "Podgorica",
+          "lat": 42.465973,
+          "lon": 19.266307,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mongolia",
+      "country_en": "Mongolia",
+      "country_cs": "Mongolsko",
+      "code": "MNG",
+      "iso2": "MN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ulaanbaatar",
+          "name_cs": "Ulánbátar",
+          "lat": 47.918619,
+          "lon": 106.91467,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Moldova",
+      "country_en": "Moldova",
+      "country_cs": "Moldavsko",
+      "code": "MDA",
+      "iso2": "MD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Chișinău",
+          "name_cs": "Kišiněv",
+          "lat": 47.005024,
+          "lon": 28.857711,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Monaco",
+      "country_en": "Monaco",
+      "country_cs": "Monako",
+      "code": "MCO",
+      "iso2": "MC",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Monaco",
+          "name_cs": "Monako",
+          "lat": 43.739646,
+          "lon": 7.406913,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mexico",
+      "country_en": "Mexico",
+      "country_cs": "Mexiko",
+      "code": "MEX",
+      "iso2": "MX",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Mexico City",
+          "name_cs": "Ciudad de México",
+          "lat": 19.444388,
+          "lon": -99.132934,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mauritius",
+      "country_en": "Mauritius",
+      "country_cs": "Mauricius",
+      "code": "MUS",
+      "iso2": "MU",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port Louis",
+          "name_cs": "Port Louis",
+          "lat": -20.166639,
+          "lon": 57.499994,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mauritania",
+      "country_en": "Mauritania",
+      "country_cs": "Mauritánie",
+      "code": "MRT",
+      "iso2": "MR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nouakchott",
+          "name_cs": "Nuakšott",
+          "lat": 18.086427,
+          "lon": -15.97534,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Malta",
+      "country_en": "Malta",
+      "country_cs": "Malta",
+      "code": "MLT",
+      "iso2": "MT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Valletta",
+          "name_cs": "Valletta",
+          "lat": 35.899733,
+          "lon": 14.514711,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Mali",
+      "country_en": "Mali",
+      "country_cs": "Mali",
+      "code": "MLI",
+      "iso2": "ML",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bamako",
+          "name_cs": "Bamako",
+          "lat": 12.651961,
+          "lon": -8.001985,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Maldives",
+      "country_en": "Maldives",
+      "country_cs": "Maledivy",
+      "code": "MDV",
+      "iso2": "MV",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Malé",
+          "name_cs": "Malé",
+          "lat": 4.166708,
+          "lon": 73.499948,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Malaysia",
+      "country_en": "Malaysia",
+      "country_cs": "Malajsie",
+      "code": "MYS",
+      "iso2": "MY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Putrajaya",
+          "name_cs": "Putrajaya",
+          "lat": 2.91402,
+          "lon": 101.701947,
+          "role": "government"
+        },
+        {
+          "name": "Kuala Lumpur",
+          "name_cs": "Kuala Lumpur",
+          "lat": 3.168612,
+          "lon": 101.698037,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Malawi",
+      "country_en": "Malawi",
+      "country_cs": "Malawi",
+      "code": "MWI",
+      "iso2": "MW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Lilongwe",
+          "name_cs": "Lilongwe",
+          "lat": -13.983295,
+          "lon": 33.783302,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Madagascar",
+      "country_en": "Madagascar",
+      "country_cs": "Madagaskar",
+      "code": "MDG",
+      "iso2": "MG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Antananarivo",
+          "name_cs": "Antananarivo",
+          "lat": -18.914692,
+          "lon": 47.514678,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "North Macedonia",
+      "country_en": "North Macedonia",
+      "country_cs": "Severní Makedonie",
+      "code": "MKD",
+      "iso2": "MK",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Skopje",
+          "name_cs": "Skopje",
+          "lat": 42.000006,
+          "lon": 21.433462,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Luxembourg",
+      "country_en": "Luxembourg",
+      "country_cs": "Lucembursko",
+      "code": "LUX",
+      "iso2": "LU",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Luxembourg",
+          "name_cs": "Lucemburk",
+          "lat": 49.61166,
+          "lon": 6.130003,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Lithuania",
+      "country_en": "Lithuania",
+      "country_cs": "Litva",
+      "code": "LTU",
+      "iso2": "LT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Vilnius",
+          "name_cs": "Vilnius",
+          "lat": 54.683366,
+          "lon": 25.316635,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Liechtenstein",
+      "country_en": "Liechtenstein",
+      "country_cs": "Lichtenštejnsko",
+      "code": "LIE",
+      "iso2": "LI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Vaduz",
+          "name_cs": "Vaduz",
+          "lat": 47.133724,
+          "lon": 9.51667,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Libya",
+      "country_en": "Libya",
+      "country_cs": "Libye",
+      "code": "LBY",
+      "iso2": "LY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tripoli",
+          "name_cs": "Tripolis",
+          "lat": 32.8925,
+          "lon": 13.180012,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Liberia",
+      "country_en": "Liberia",
+      "country_cs": "Libérie",
+      "code": "LBR",
+      "iso2": "LR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Monrovia",
+          "name_cs": "Monrovia",
+          "lat": 6.314582,
+          "lon": -10.79966,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Lesotho",
+      "country_en": "Lesotho",
+      "country_cs": "Lesotho",
+      "code": "LSO",
+      "iso2": "LS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Maseru",
+          "name_cs": "Maseru",
+          "lat": -29.316674,
+          "lon": 27.483273,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Lebanon",
+      "country_en": "Lebanon",
+      "country_cs": "Libanon",
+      "code": "LBN",
+      "iso2": "LB",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Beirut",
+          "name_cs": "Bejrút",
+          "lat": 33.873921,
+          "lon": 35.507762,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Latvia",
+      "country_en": "Latvia",
+      "country_cs": "Lotyšsko",
+      "code": "LVA",
+      "iso2": "LV",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Riga",
+          "name_cs": "Riga",
+          "lat": 56.950024,
+          "lon": 24.099965,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Laos",
+      "country_en": "Laos",
+      "country_cs": "Laos",
+      "code": "LAO",
+      "iso2": "LA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Vientiane",
+          "name_cs": "Vientiane",
+          "lat": 17.966693,
+          "lon": 102.59998,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kyrgyzstan",
+      "country_en": "Kyrgyzstan",
+      "country_cs": "Kyrgyzstán",
+      "code": "KGZ",
+      "iso2": "KG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bishkek",
+          "name_cs": "Biškek",
+          "lat": 42.875025,
+          "lon": 74.583258,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kuwait",
+      "country_en": "Kuwait",
+      "country_cs": "Kuvajt",
+      "code": "KWT",
+      "iso2": "KW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kuwait City",
+          "name_cs": "Kuwait City",
+          "lat": 29.371664,
+          "lon": 47.976355,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kosovo",
+      "country_en": "Kosovo",
+      "country_cs": "Kosovo",
+      "code": "KOS",
+      "iso2": "XK",
+      "type": "Disputed",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Pristina",
+          "name_cs": "Priština",
+          "lat": 42.66671,
+          "lon": 21.165984,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kiribati",
+      "country_en": "Kiribati",
+      "country_cs": "Kiribati",
+      "code": "KIR",
+      "iso2": "KI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "South Tarawa",
+          "name_cs": "Jižní Tarawa",
+          "lat": 1.3278,
+          "lon": 172.977,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kenya",
+      "country_en": "Kenya",
+      "country_cs": "Keňa",
+      "code": "KEN",
+      "iso2": "KE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nairobi",
+          "name_cs": "Nairobi",
+          "lat": -1.281401,
+          "lon": 36.814711,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Kazakhstan",
+      "country_en": "Kazakhstan",
+      "country_cs": "Kazachstán",
+      "code": "KAZ",
+      "iso2": "KZ",
+      "type": "Sovereignty",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Astana",
+          "name_cs": "Astana",
+          "lat": 51.1694,
+          "lon": 71.4491,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Jordan",
+      "country_en": "Jordan",
+      "country_cs": "Jordánsko",
+      "code": "JOR",
+      "iso2": "JO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Amman",
+          "name_cs": "Ammán",
+          "lat": 31.951971,
+          "lon": 35.931354,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Japan",
+      "country_en": "Japan",
+      "country_cs": "Japonsko",
+      "code": "JPN",
+      "iso2": "JP",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "name_cs": "Tokio",
+          "lat": 35.686963,
+          "lon": 139.749462,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Jamaica",
+      "country_en": "Jamaica",
+      "country_cs": "Jamajka",
+      "code": "JAM",
+      "iso2": "JM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kingston",
+          "name_cs": "Kingston",
+          "lat": 17.977077,
+          "lon": -76.767434,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Italy",
+      "country_en": "Italy",
+      "country_cs": "Itálie",
+      "code": "ITA",
+      "iso2": "IT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Rome",
+          "name_cs": "Řím",
+          "lat": 41.897902,
+          "lon": 12.481313,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Israel",
+      "country_en": "Israel",
+      "country_cs": "Izrael",
+      "code": "ISR",
+      "iso2": "IL",
+      "type": "Disputed",
+      "note_cs": "Status Jeruzaléma je mezinárodně sporný.",
+      "cities": [
+        {
+          "name": "Jerusalem",
+          "name_cs": "Jeruzalém",
+          "lat": 31.7683,
+          "lon": 35.2137,
+          "role": "capital"
+        }
+      ],
+      "note_en": "The status of Jerusalem is internationally disputed."
+    },
+    {
+      "country": "Palestine",
+      "country_en": "Palestine",
+      "country_cs": "Palestinská území",
+      "code": "PSX",
+      "iso2": "PS",
+      "type": "Indeterminate",
+      "note_cs": "Východní Jeruzalém je nárokované hlavní město; Ramalláh je správní sídlo. Status je sporný.",
+      "cities": [
+        {
+          "name": "East Jerusalem",
+          "name_cs": "Východní Jeruzalém",
+          "lat": 31.7833,
+          "lon": 35.2333,
+          "role": "claimed"
+        },
+        {
+          "name": "Ramallah",
+          "name_cs": "Ramalláh",
+          "lat": 31.9038,
+          "lon": 35.2034,
+          "role": "government"
+        }
+      ],
+      "note_en": "East Jerusalem is the claimed capital; Ramallah is the administrative seat. Status is disputed."
+    },
+    {
+      "country": "Ireland",
+      "country_en": "Ireland",
+      "country_cs": "Irsko",
+      "code": "IRL",
+      "iso2": "IE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dublin",
+          "name_cs": "Dublin",
+          "lat": 53.335007,
+          "lon": -6.250852,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Iraq",
+      "country_en": "Iraq",
+      "country_cs": "Irák",
+      "code": "IRQ",
+      "iso2": "IQ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Baghdad",
+          "name_cs": "Bagdád",
+          "lat": 33.340594,
+          "lon": 44.391923,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Iran",
+      "country_en": "Iran",
+      "country_cs": "Írán",
+      "code": "IRN",
+      "iso2": "IR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tehran",
+          "name_cs": "Teherán",
+          "lat": 35.673889,
+          "lon": 51.422398,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Indonesia",
+      "country_en": "Indonesia",
+      "country_cs": "Indonésie",
+      "code": "IDN",
+      "iso2": "ID",
+      "type": "Sovereign country",
+      "note_cs": "Nusantara je budované budoucí politické centrum; přesun institucí je plánován do roku 2028.",
+      "cities": [
+        {
+          "name": "Jakarta",
+          "name_cs": "Jakarta",
+          "lat": -6.2088,
+          "lon": 106.8456,
+          "role": "capital"
+        }
+      ],
+      "note_en": "Nusantara is the future political center under construction, with institutional relocation targeted for 2028."
+    },
+    {
+      "country": "India",
+      "country_en": "India",
+      "country_cs": "Indie",
+      "code": "IND",
+      "iso2": "IN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "New Delhi",
+          "name_cs": "Nové Dillí",
+          "lat": 28.600023,
+          "lon": 77.19998,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Iceland",
+      "country_en": "Iceland",
+      "country_cs": "Island",
+      "code": "ISL",
+      "iso2": "IS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Reykjavík",
+          "name_cs": "Reykjavík",
+          "lat": 64.150024,
+          "lon": -21.950015,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Hungary",
+      "country_en": "Hungary",
+      "country_cs": "Maďarsko",
+      "code": "HUN",
+      "iso2": "HU",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Budapest",
+          "name_cs": "Budapest",
+          "lat": 47.501952,
+          "lon": 19.081375,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Honduras",
+      "country_en": "Honduras",
+      "country_cs": "Honduras",
+      "code": "HND",
+      "iso2": "HN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tegucigalpa",
+          "name_cs": "Tegucigalpa",
+          "lat": 14.103991,
+          "lon": -87.219475,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Haiti",
+      "country_en": "Haiti",
+      "country_cs": "Haiti",
+      "code": "HTI",
+      "iso2": "HT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port-au-Prince",
+          "name_cs": "Port-au-Prince",
+          "lat": 18.542971,
+          "lon": -72.33798,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guyana",
+      "country_en": "Guyana",
+      "country_cs": "Guyana",
+      "code": "GUY",
+      "iso2": "GY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Georgetown",
+          "name_cs": "Georgetown",
+          "lat": 6.801974,
+          "lon": -58.167029,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guinea-Bissau",
+      "country_en": "Guinea-Bissau",
+      "country_cs": "Guinea-Bissau",
+      "code": "GNB",
+      "iso2": "GW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bissau",
+          "name_cs": "Bissau",
+          "lat": 11.865024,
+          "lon": -15.598361,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guinea",
+      "country_en": "Guinea",
+      "country_cs": "Guinea",
+      "code": "GIN",
+      "iso2": "GN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Conakry",
+          "name_cs": "Conakry",
+          "lat": 9.533469,
+          "lon": -13.682181,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Guatemala",
+      "country_en": "Guatemala",
+      "country_cs": "Guatemala",
+      "code": "GTM",
+      "iso2": "GT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Guatemala City",
+          "name_cs": "Guatemala City",
+          "lat": 14.623081,
+          "lon": -90.528911,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Grenada",
+      "country_en": "Grenada",
+      "country_cs": "Grenada",
+      "code": "GRD",
+      "iso2": "GD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saint George's",
+          "name_cs": "Saint George's",
+          "lat": 12.052633,
+          "lon": -61.741643,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Greece",
+      "country_en": "Greece",
+      "country_cs": "Řecko",
+      "code": "GRC",
+      "iso2": "GR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Athens",
+          "name_cs": "Atény",
+          "lat": 37.985272,
+          "lon": 23.731375,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Ghana",
+      "country_en": "Ghana",
+      "country_cs": "Ghana",
+      "code": "GHA",
+      "iso2": "GH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Accra",
+          "name_cs": "Accra",
+          "lat": 5.551981,
+          "lon": -0.218662,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Germany",
+      "country_en": "Germany",
+      "country_cs": "Německo",
+      "code": "DEU",
+      "iso2": "DE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Berlin",
+          "name_cs": "Berlin",
+          "lat": 52.523765,
+          "lon": 13.399603,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Georgia",
+      "country_en": "Georgia",
+      "country_cs": "Gruzie",
+      "code": "GEO",
+      "iso2": "GE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tbilisi",
+          "name_cs": "Tbilisi",
+          "lat": 41.726956,
+          "lon": 44.78885,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Gambia",
+      "country_en": "The Gambia",
+      "country_cs": "Gambie",
+      "code": "GMB",
+      "iso2": "GM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Banjul",
+          "name_cs": "Banjul",
+          "lat": 13.453877,
+          "lon": -16.591702,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Gabon",
+      "country_en": "Gabon",
+      "country_cs": "Gabon",
+      "code": "GAB",
+      "iso2": "GA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Libreville",
+          "name_cs": "Libreville",
+          "lat": 0.385389,
+          "lon": 9.457965,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "France",
+      "country_en": "France",
+      "country_cs": "Francie",
+      "code": "FRA",
+      "iso2": "FR",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Paris",
+          "name_cs": "Paříž",
+          "lat": 48.868639,
+          "lon": 2.33139,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "St. Pierre and Miquelon",
+      "country_en": "Saint Pierre and Miquelon",
+      "country_cs": "Saint-Pierre a Miquelon",
+      "code": "SPM",
+      "iso2": "PM",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saint-Pierre",
+          "name_cs": "Saint-Pierre",
+          "lat": 46.7781,
+          "lon": -56.1778,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Wallis and Futuna Is.",
+      "country_en": "Wallis and Futuna",
+      "country_cs": "Wallis a Futuna",
+      "code": "WLF",
+      "iso2": "WF",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Mata Utu",
+          "name_cs": "Mata Utu",
+          "lat": -13.2825,
+          "lon": -176.1736,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "St-Martin",
+      "country_en": "Saint Martin",
+      "country_cs": "Svatý Martin (Francie)",
+      "code": "MAF",
+      "iso2": "MF",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Marigot",
+          "name_cs": "Marigot",
+          "lat": 18.0675,
+          "lon": -63.0825,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "St-Barthélemy",
+      "country_en": "Saint Barthélemy",
+      "country_cs": "Svatý Bartoloměj",
+      "code": "BLM",
+      "iso2": "BL",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Gustavia",
+          "name_cs": "Gustavia",
+          "lat": 17.8962,
+          "lon": -62.8498,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Fr. Polynesia",
+      "country_en": "French Polynesia",
+      "country_cs": "Francouzská Polynésie",
+      "code": "PYF",
+      "iso2": "PF",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Papeete",
+          "name_cs": "Papeete",
+          "lat": -17.533363,
+          "lon": -149.566669,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "New Caledonia",
+      "country_en": "New Caledonia",
+      "country_cs": "Nová Kaledonie",
+      "code": "NCL",
+      "iso2": "NC",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nouméa",
+          "name_cs": "Nouméa",
+          "lat": -22.262528,
+          "lon": 166.444285,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Fr. S. Antarctic Lands",
+      "country_en": "French Southern and Antarctic Lands",
+      "country_cs": "Francouzská jižní území",
+      "code": "ATF",
+      "iso2": "TF",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Port-aux-Français",
+          "name_cs": "Port-aux-Français",
+          "lat": -49.35,
+          "lon": 70.2167,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Åland",
+      "country_en": "Åland",
+      "country_cs": "Ålandy",
+      "code": "ALD",
+      "iso2": "AX",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Mariehamn",
+          "name_cs": "Mariehamn",
+          "lat": 60.097,
+          "lon": 19.9348,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Finland",
+      "country_en": "Finland",
+      "country_cs": "Finsko",
+      "code": "FIN",
+      "iso2": "FI",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Helsinki",
+          "name_cs": "Helsinki",
+          "lat": 60.177509,
+          "lon": 24.932181,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Fiji",
+      "country_en": "Fiji",
+      "country_cs": "Fidži",
+      "code": "FJI",
+      "iso2": "FJ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Suva",
+          "name_cs": "Suva",
+          "lat": -18.133016,
+          "lon": 178.441707,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Ethiopia",
+      "country_en": "Ethiopia",
+      "country_cs": "Etiopie",
+      "code": "ETH",
+      "iso2": "ET",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Addis Ababa",
+          "name_cs": "Addis Abeba",
+          "lat": 9.035256,
+          "lon": 38.698059,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Estonia",
+      "country_en": "Estonia",
+      "country_cs": "Estonsko",
+      "code": "EST",
+      "iso2": "EE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tallinn",
+          "name_cs": "Tallinn",
+          "lat": 59.433877,
+          "lon": 24.728041,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Eritrea",
+      "country_en": "Eritrea",
+      "country_cs": "Eritrea",
+      "code": "ERI",
+      "iso2": "ER",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Asmara",
+          "name_cs": "Asmara",
+          "lat": 15.333339,
+          "lon": 38.933324,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Eq. Guinea",
+      "country_en": "Equatorial Guinea",
+      "country_cs": "Rovníková Guinea",
+      "code": "GNQ",
+      "iso2": "GQ",
+      "type": "Sovereign country",
+      "note_cs": "Hlavní město od 2. ledna 2026.",
+      "cities": [
+        {
+          "name": "Ciudad de la Paz",
+          "name_cs": "Ciudad de la Paz",
+          "lat": 1.5881,
+          "lon": 10.8226,
+          "role": "capital"
+        }
+      ],
+      "note_en": "Capital since 2 January 2026."
+    },
+    {
+      "country": "El Salvador",
+      "country_en": "El Salvador",
+      "country_cs": "Salvador",
+      "code": "SLV",
+      "iso2": "SV",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "San Salvador",
+          "name_cs": "San Salvador",
+          "lat": 13.711948,
+          "lon": -89.204987,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Egypt",
+      "country_en": "Egypt",
+      "country_cs": "Egypt",
+      "code": "EGY",
+      "iso2": "EG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Cairo",
+          "name_cs": "Káhira",
+          "lat": 30.051906,
+          "lon": 31.248022,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Ecuador",
+      "country_en": "Ecuador",
+      "country_cs": "Ekvádor",
+      "code": "ECU",
+      "iso2": "EC",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Quito",
+          "name_cs": "Quito",
+          "lat": -0.213042,
+          "lon": -78.501997,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Dominican Rep.",
+      "country_en": "Dominican Republic",
+      "country_cs": "Dominikánská republika",
+      "code": "DOM",
+      "iso2": "DO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Santo Domingo",
+          "name_cs": "Santo Domingo",
+          "lat": 18.472019,
+          "lon": -69.902031,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Dominica",
+      "country_en": "Dominica",
+      "country_cs": "Dominika",
+      "code": "DMA",
+      "iso2": "DM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Roseau",
+          "name_cs": "Roseau",
+          "lat": 15.301016,
+          "lon": -61.387013,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Djibouti",
+      "country_en": "Djibouti",
+      "country_cs": "Džibutsko",
+      "code": "DJI",
+      "iso2": "DJ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Djibouti",
+          "name_cs": "Djibouti",
+          "lat": 11.595015,
+          "lon": 43.148002,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Greenland",
+      "country_en": "Greenland",
+      "country_cs": "Grónsko",
+      "code": "GRL",
+      "iso2": "GL",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nuuk",
+          "name_cs": "Nuuk",
+          "lat": 64.198282,
+          "lon": -51.732659,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Faeroe Is.",
+      "country_en": "Faroe Islands",
+      "country_cs": "Faerské ostrovy",
+      "code": "FRO",
+      "iso2": "FO",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Torshavn",
+          "name_cs": "Torshavn",
+          "lat": 61.8926,
+          "lon": -6.91181,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Denmark",
+      "country_en": "Denmark",
+      "country_cs": "Dánsko",
+      "code": "DNK",
+      "iso2": "DK",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "København",
+          "name_cs": "København",
+          "lat": 55.68051,
+          "lon": 12.56154,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Czechia",
+      "country_en": "Czech Republic",
+      "country_cs": "Česko",
+      "code": "CZE",
+      "iso2": "CZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Prague",
+          "name_cs": "Praha",
+          "lat": 50.0755,
+          "lon": 14.4378,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "N. Cyprus",
+      "country_en": "Turkish Republic of Northern Cyprus",
+      "country_cs": "Severní Kypr",
+      "code": "CYN",
+      "iso2": "-99",
+      "type": "Sovereign country",
+      "note_cs": "De facto správní centrum severní části Kypru; mezinárodní status je sporný.",
+      "cities": [
+        {
+          "name": "North Nicosia",
+          "name_cs": "Severní Nikósie",
+          "lat": 35.185,
+          "lon": 33.365,
+          "role": "de_facto"
+        }
+      ],
+      "note_en": "De facto administrative center of northern Cyprus; international status is disputed."
+    },
+    {
+      "country": "Cyprus",
+      "country_en": "Cyprus",
+      "country_cs": "Kypr",
+      "code": "CYP",
+      "iso2": "CY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nicosia",
+          "name_cs": "Nikósie",
+          "lat": 35.166677,
+          "lon": 33.366635,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cuba",
+      "country_en": "Cuba",
+      "country_cs": "Kuba",
+      "code": "CUB",
+      "iso2": "CU",
+      "type": "Sovereignty",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Havana",
+          "name_cs": "Havana",
+          "lat": 23.133905,
+          "lon": -82.366128,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Croatia",
+      "country_en": "Croatia",
+      "country_cs": "Chorvatsko",
+      "code": "HRV",
+      "iso2": "HR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Zagreb",
+          "name_cs": "Záhřeb",
+          "lat": 45.800007,
+          "lon": 15.999995,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "country_en": "Ivory Coast",
+      "country_cs": "Pobřeží slonoviny",
+      "code": "CIV",
+      "iso2": "CI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Yamoussoukro",
+          "name_cs": "Yamoussoukro",
+          "lat": 6.818381,
+          "lon": -5.275503,
+          "role": "capital"
+        },
+        {
+          "name": "Abidjan",
+          "name_cs": "Abidjan",
+          "lat": 5.321943,
+          "lon": -4.041994,
+          "role": "government"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Costa Rica",
+      "country_en": "Costa Rica",
+      "country_cs": "Kostarika",
+      "code": "CRI",
+      "iso2": "CR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "San José",
+          "name_cs": "San José",
+          "lat": 9.936958,
+          "lon": -84.085997,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Dem. Rep. Congo",
+      "country_en": "Democratic Republic of the Congo",
+      "country_cs": "Kongo – Kinshasa",
+      "code": "COD",
+      "iso2": "CD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kinshasa",
+          "name_cs": "Kinshasa",
+          "lat": -4.327778,
+          "lon": 15.313026,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Congo",
+      "country_en": "Republic of the Congo",
+      "country_cs": "Kongo – Brazzaville",
+      "code": "COG",
+      "iso2": "CG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Brazzaville",
+          "name_cs": "Brazzaville",
+          "lat": -4.25724,
+          "lon": 15.282744,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Comoros",
+      "country_en": "Comoros",
+      "country_cs": "Komory",
+      "code": "COM",
+      "iso2": "KM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Moroni",
+          "name_cs": "Moroni",
+          "lat": -11.704158,
+          "lon": 43.240244,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Colombia",
+      "country_en": "Colombia",
+      "country_cs": "Kolumbie",
+      "code": "COL",
+      "iso2": "CO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bogota",
+          "name_cs": "Bogota",
+          "lat": 4.598369,
+          "lon": -74.08529,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "China",
+      "country_en": "People's Republic of China",
+      "country_cs": "Čína",
+      "code": "CHN",
+      "iso2": "CN",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Beijing",
+          "name_cs": "Peking",
+          "lat": 39.930838,
+          "lon": 116.38634,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Macao",
+      "country_en": "Macau",
+      "country_cs": "Macao – ZAO Číny",
+      "code": "MAC",
+      "iso2": "MO",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Macau",
+          "name_cs": "Macau",
+          "lat": 22.202998,
+          "lon": 113.545048,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Hong Kong",
+      "country_en": "Hong Kong",
+      "country_cs": "Hongkong – ZAO Číny",
+      "code": "HKG",
+      "iso2": "HK",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Hong Kong",
+          "name_cs": "Hong Kong",
+          "lat": 22.306927,
+          "lon": 114.183064,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Chile",
+      "country_en": "Chile",
+      "country_cs": "Chile",
+      "code": "CHL",
+      "iso2": "CL",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Valparaíso",
+          "name_cs": "Valparaíso",
+          "lat": -33.045819,
+          "lon": -71.62296,
+          "role": "legislative"
+        },
+        {
+          "name": "Santiago",
+          "name_cs": "Santiago",
+          "lat": -33.448068,
+          "lon": -70.668987,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Chad",
+      "country_en": "Chad",
+      "country_cs": "Čad",
+      "code": "TCD",
+      "iso2": "TD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "N'Djamena",
+          "name_cs": "N'Djamena",
+          "lat": 12.115042,
+          "lon": 15.047203,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Central African Rep.",
+      "country_en": "Central African Republic",
+      "country_cs": "Středoafrická republika",
+      "code": "CAF",
+      "iso2": "CF",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bangui",
+          "name_cs": "Bangui",
+          "lat": 4.366644,
+          "lon": 18.558288,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cabo Verde",
+      "country_en": "Cape Verde",
+      "country_cs": "Kapverdy",
+      "code": "CPV",
+      "iso2": "CV",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Praia",
+          "name_cs": "Praia",
+          "lat": 14.916698,
+          "lon": -23.516689,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Canada",
+      "country_en": "Canada",
+      "country_cs": "Kanada",
+      "code": "CAN",
+      "iso2": "CA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ottawa",
+          "name_cs": "Ottawa",
+          "lat": 45.418643,
+          "lon": -75.701961,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cameroon",
+      "country_en": "Cameroon",
+      "country_cs": "Kamerun",
+      "code": "CMR",
+      "iso2": "CM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Yaoundé",
+          "name_cs": "Yaoundé",
+          "lat": 3.868647,
+          "lon": 11.514705,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Cambodia",
+      "country_en": "Cambodia",
+      "country_cs": "Kambodža",
+      "code": "KHM",
+      "iso2": "KH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Phnom Penh",
+          "name_cs": "Phnom Penh",
+          "lat": 11.551976,
+          "lon": 104.914689,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Myanmar",
+      "country_en": "Myanmar",
+      "country_cs": "Myanmar (Barma)",
+      "code": "MMR",
+      "iso2": "MM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Naypyidaw",
+          "name_cs": "Neipyijto",
+          "lat": 19.768503,
+          "lon": 96.116673,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Burundi",
+      "country_en": "Burundi",
+      "country_cs": "Burundi",
+      "code": "BDI",
+      "iso2": "BI",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Gitega",
+          "name_cs": "Gitega",
+          "lat": -3.4264,
+          "lon": 29.9306,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Burkina Faso",
+      "country_en": "Burkina Faso",
+      "country_cs": "Burkina Faso",
+      "code": "BFA",
+      "iso2": "BF",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Ouagadougou",
+          "name_cs": "Ouagadougou",
+          "lat": 12.372262,
+          "lon": -1.52667,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bulgaria",
+      "country_en": "Bulgaria",
+      "country_cs": "Bulharsko",
+      "code": "BGR",
+      "iso2": "BG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Sofia",
+          "name_cs": "Sofie",
+          "lat": 42.685295,
+          "lon": 23.314708,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Brunei",
+      "country_en": "Brunei",
+      "country_cs": "Brunej",
+      "code": "BRN",
+      "iso2": "BN",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bandar Seri Begawan",
+          "name_cs": "Bandar Seri Begawan",
+          "lat": 4.883331,
+          "lon": 114.933284,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Brazil",
+      "country_en": "Brazil",
+      "country_cs": "Brazílie",
+      "code": "BRA",
+      "iso2": "BR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Brasília",
+          "name_cs": "Brasília",
+          "lat": -15.781394,
+          "lon": -47.917998,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Botswana",
+      "country_en": "Botswana",
+      "country_cs": "Botswana",
+      "code": "BWA",
+      "iso2": "BW",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Gaborone",
+          "name_cs": "Gaborone",
+          "lat": -24.646314,
+          "lon": 25.911948,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bosnia and Herz.",
+      "country_en": "Bosnia and Herzegovina",
+      "country_cs": "Bosna a Hercegovina",
+      "code": "BIH",
+      "iso2": "BA",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Sarajevo",
+          "name_cs": "Sarajevo",
+          "lat": 43.850022,
+          "lon": 18.383002,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bolivia",
+      "country_en": "Bolivia",
+      "country_cs": "Bolívie",
+      "code": "BOL",
+      "iso2": "BO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Sucre",
+          "name_cs": "Sucre",
+          "lat": -19.0333,
+          "lon": -65.2627,
+          "role": "capital"
+        },
+        {
+          "name": "La Paz",
+          "name_cs": "La Paz",
+          "lat": -16.4897,
+          "lon": -68.1193,
+          "role": "government"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bhutan",
+      "country_en": "Bhutan",
+      "country_cs": "Bhútán",
+      "code": "BTN",
+      "iso2": "BT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Thimphu",
+          "name_cs": "Thimphu",
+          "lat": 27.472986,
+          "lon": 89.639014,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Benin",
+      "country_en": "Benin",
+      "country_cs": "Benin",
+      "code": "BEN",
+      "iso2": "BJ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Porto-Novo",
+          "name_cs": "Porto-Novo",
+          "lat": 6.483311,
+          "lon": 2.616626,
+          "role": "capital"
+        },
+        {
+          "name": "Cotonou",
+          "name_cs": "Cotonou",
+          "lat": 6.401954,
+          "lon": 2.518045,
+          "role": "government"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Belize",
+      "country_en": "Belize",
+      "country_cs": "Belize",
+      "code": "BLZ",
+      "iso2": "BZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Belmopan",
+          "name_cs": "Belmopan",
+          "lat": 17.252034,
+          "lon": -88.767073,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Belgium",
+      "country_en": "Belgium",
+      "country_cs": "Belgie",
+      "code": "BEL",
+      "iso2": "BE",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Brussels",
+          "name_cs": "Brusel",
+          "lat": 50.835263,
+          "lon": 4.331371,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Belarus",
+      "country_en": "Belarus",
+      "country_cs": "Bělorusko",
+      "code": "BLR",
+      "iso2": "BY",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Minsk",
+          "name_cs": "Minsk",
+          "lat": 53.901923,
+          "lon": 27.564681,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Barbados",
+      "country_en": "Barbados",
+      "country_cs": "Barbados",
+      "code": "BRB",
+      "iso2": "BB",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Bridgetown",
+          "name_cs": "Bridgetown",
+          "lat": 13.102003,
+          "lon": -59.616527,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bangladesh",
+      "country_en": "Bangladesh",
+      "country_cs": "Bangladéš",
+      "code": "BGD",
+      "iso2": "BD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Dhaka",
+          "name_cs": "Dháka",
+          "lat": 23.725006,
+          "lon": 90.406634,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bahrain",
+      "country_en": "Bahrain",
+      "country_cs": "Bahrajn",
+      "code": "BHR",
+      "iso2": "BH",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Manama",
+          "name_cs": "Manama",
+          "lat": 26.236136,
+          "lon": 50.583052,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Bahamas",
+      "country_en": "The Bahamas",
+      "country_cs": "Bahamy",
+      "code": "BHS",
+      "iso2": "BS",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Nassau",
+          "name_cs": "Nassau",
+          "lat": 25.08339,
+          "lon": -77.350044,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Azerbaijan",
+      "country_en": "Azerbaijan",
+      "country_cs": "Ázerbájdžán",
+      "code": "AZE",
+      "iso2": "AZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Baku",
+          "name_cs": "Baku",
+          "lat": 40.397218,
+          "lon": 49.860271,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Austria",
+      "country_en": "Austria",
+      "country_cs": "Rakousko",
+      "code": "AUT",
+      "iso2": "AT",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Vienna",
+          "name_cs": "Vídeň",
+          "lat": 48.201961,
+          "lon": 16.364693,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Australia",
+      "country_en": "Australia",
+      "country_cs": "Austrálie",
+      "code": "AUS",
+      "iso2": "AU",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Canberra",
+          "name_cs": "Canberra",
+          "lat": -35.283029,
+          "lon": 149.129026,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Indian Ocean Ter.",
+      "country_en": "Australian Indian Ocean Territories",
+      "country_cs": "Austrálie",
+      "code": "IOA",
+      "iso2": "AU",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Flying Fish Cove",
+          "name_cs": "Flying Fish Cove",
+          "lat": -10.4217,
+          "lon": 105.6792,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Heard I. and McDonald Is.",
+      "country_en": "Heard Island and McDonald Islands",
+      "country_cs": "Heardův ostrov a McDonaldovy ostrovy",
+      "code": "HMD",
+      "iso2": "HM",
+      "type": "Dependency",
+      "note_cs": "Bez stálého osídlení a hlavního města.",
+      "cities": [],
+      "note_en": "No permanent population or capital."
+    },
+    {
+      "country": "Norfolk Island",
+      "country_en": "Norfolk Island",
+      "country_cs": "Norfolk",
+      "code": "NFK",
+      "iso2": "NF",
+      "type": "Dependency",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kingston",
+          "name_cs": "Kingston",
+          "lat": -29.0569,
+          "lon": 167.9617,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Ashmore and Cartier Is.",
+      "country_en": "Ashmore and Cartier Islands",
+      "country_cs": "Austrálie",
+      "code": "ATC",
+      "iso2": "AU",
+      "type": "Dependency",
+      "note_cs": "Neobydlené území bez hlavního města.",
+      "cities": [],
+      "note_en": "Uninhabited territory with no capital."
+    },
+    {
+      "country": "Armenia",
+      "country_en": "Armenia",
+      "country_cs": "Arménie",
+      "code": "ARM",
+      "iso2": "AM",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Yerevan",
+          "name_cs": "Jerevan",
+          "lat": 40.183097,
+          "lon": 44.511606,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Argentina",
+      "country_en": "Argentina",
+      "country_cs": "Argentina",
+      "code": "ARG",
+      "iso2": "AR",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Buenos Aires",
+          "name_cs": "Buenos Aires",
+          "lat": -34.600556,
+          "lon": -58.399477,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Antigua and Barb.",
+      "country_en": "Antigua and Barbuda",
+      "country_cs": "Antigua a Barbuda",
+      "code": "ATG",
+      "iso2": "AG",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Saint John's",
+          "name_cs": "Saint John's",
+          "lat": 17.118037,
+          "lon": -61.850034,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Angola",
+      "country_en": "Angola",
+      "country_cs": "Angola",
+      "code": "AGO",
+      "iso2": "AO",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Luanda",
+          "name_cs": "Luanda",
+          "lat": -8.83634,
+          "lon": 13.232481,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Andorra",
+      "country_en": "Andorra",
+      "country_cs": "Andorra",
+      "code": "AND",
+      "iso2": "AD",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Andorra la Vella",
+          "name_cs": "Andorra la Vella",
+          "lat": 42.500001,
+          "lon": 1.516486,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Algeria",
+      "country_en": "Algeria",
+      "country_cs": "Alžírsko",
+      "code": "DZA",
+      "iso2": "DZ",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Algiers",
+          "name_cs": "Alžír",
+          "lat": 36.765011,
+          "lon": 3.048607,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Albania",
+      "country_en": "Albania",
+      "country_cs": "Albánie",
+      "code": "ALB",
+      "iso2": "AL",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Tirana",
+          "name_cs": "Tirana",
+          "lat": 41.327541,
+          "lon": 19.818883,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Afghanistan",
+      "country_en": "Afghanistan",
+      "country_cs": "Afghánistán",
+      "code": "AFG",
+      "iso2": "AF",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Kabul",
+          "name_cs": "Kábul",
+          "lat": 34.518636,
+          "lon": 69.181314,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Siachen Glacier",
+      "country_en": "Siachen Glacier",
+      "country_cs": "Ledovec Siačen",
+      "code": "KAS",
+      "iso2": "-99",
+      "type": "Indeterminate",
+      "note_cs": "Sporné území bez hlavního města.",
+      "cities": [],
+      "note_en": "Disputed territory with no capital."
+    },
+    {
+      "country": "Antarctica",
+      "country_en": "Antarctica",
+      "country_cs": "Antarktida",
+      "code": "ATA",
+      "iso2": "AQ",
+      "type": "Indeterminate",
+      "note_cs": "Antarktida nemá hlavní město.",
+      "cities": [],
+      "note_en": "Antarctica has no capital."
+    },
+    {
+      "country": "Sint Maarten",
+      "country_en": "Sint Maarten",
+      "country_cs": "Svatý Martin (Nizozemsko)",
+      "code": "SXM",
+      "iso2": "SX",
+      "type": "Country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Philipsburg",
+          "name_cs": "Philipsburg",
+          "lat": 18.026,
+          "lon": -63.0458,
+          "role": "administrative"
+        }
+      ],
+      "note_en": ""
+    },
+    {
+      "country": "Tuvalu",
+      "country_en": "Tuvalu",
+      "country_cs": "Tuvalu",
+      "code": "TUV",
+      "iso2": "TV",
+      "type": "Sovereign country",
+      "note_cs": "",
+      "cities": [
+        {
+          "name": "Funafuti",
+          "name_cs": "Funafuti",
+          "lat": -8.516652,
+          "lon": 179.216647,
+          "role": "capital"
+        }
+      ],
+      "note_en": ""
+    }
+  ],
+  "input_sha256": {
+    "uaa-ne-cities.json": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f",
+    "uaa-ne-countries.json": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "uaa-worldbank-countries.json": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce",
+    "uaa-territories-cs.json": "8e35c020f86ffd5b9532ad36ef1bc04d73744c85471a70449df666795eadb147"
+  }
+}

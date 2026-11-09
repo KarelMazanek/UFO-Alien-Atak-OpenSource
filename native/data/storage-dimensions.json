@@ -1,0 +1,221 @@
+{
+  "source": "game/UFO-ALIEN-ATAK-v0.3.0.html: STORAGE_ITEM_DIMENSIONS_CM and STORAGE_PALLET_VOLUME_LITRES",
+  "palletLitres": 1200,
+  "dimensionsCm": {
+    "tank-machine-gun": [
+      65,
+      15,
+      15
+    ],
+    "tank-main-gun": [
+      100,
+      60,
+      45
+    ],
+    "radiation-suit": [
+      60,
+      45,
+      25
+    ],
+    "tank-rocket-pods": [
+      70,
+      18,
+      18
+    ],
+    "tank-rocket": [
+      60,
+      8,
+      8
+    ],
+    "arm-armor": [
+      40,
+      22,
+      12
+    ],
+    "combat-helmet": [
+      30,
+      26,
+      24
+    ],
+    "pistol": [
+      24,
+      18,
+      5
+    ],
+    "rifle": [
+      110,
+      30,
+      10
+    ],
+    "machine-gun": [
+      110,
+      35,
+      18
+    ],
+    "rocket-launcher": [
+      100,
+      25,
+      18
+    ],
+    "pistol-ammo": [
+      10,
+      7,
+      3
+    ],
+    "rifle-ammo": [
+      18,
+      9,
+      4
+    ],
+    "machine-gun-ammo": [
+      30,
+      12,
+      8
+    ],
+    "rocket-ammo": [
+      70,
+      12,
+      12
+    ],
+    "incendiary-rocket": [
+      70,
+      12,
+      12
+    ],
+    "fragmentation-grenade": [
+      9,
+      9,
+      12
+    ],
+    "anti-personnel-mine": [
+      18,
+      18,
+      5
+    ],
+    "flash-grenade": [
+      9,
+      9,
+      12
+    ],
+    "four-slot-belt": [
+      30,
+      15,
+      8
+    ],
+    "field-aid": [
+      18,
+      12,
+      7
+    ],
+    "medikit": [
+      28,
+      18,
+      10
+    ],
+    "armor-vest": [
+      45,
+      40,
+      10
+    ],
+    "reinforced-vest": [
+      48,
+      42,
+      14
+    ],
+    "leg-armor": [
+      45,
+      20,
+      12
+    ],
+    "rotary-cannon": [
+      250,
+      70,
+      70
+    ],
+    "missile-rack": [
+      180,
+      40,
+      35
+    ],
+    "cannon-rounds": [
+      45,
+      35,
+      25
+    ],
+    "air-to-air-missiles": [
+      300,
+      35,
+      35
+    ],
+    "fighter-engine": [
+      240,
+      180,
+      150
+    ],
+    "hover-engine": [
+      280,
+      220,
+      190
+    ],
+    "awacs-engine": [
+      320,
+      240,
+      220
+    ],
+    "aux-radar": [
+      80,
+      60,
+      25
+    ],
+    "shield": [
+      100,
+      90,
+      25
+    ],
+    "electronics": [
+      50,
+      40,
+      20
+    ],
+    "metals": [
+      10,
+      10,
+      10
+    ],
+    "plastics": [
+      10,
+      10,
+      10
+    ],
+    "glass": [
+      10,
+      10,
+      10
+    ],
+    "electronic-components": [
+      12,
+      10,
+      10
+    ],
+    "uranium": [
+      10,
+      10,
+      10
+    ],
+    "light-tank": [
+      120,
+      100,
+      100
+    ],
+    "tank-main-gun-round": [
+      25,
+      6,
+      6
+    ],
+    "tank-machine-gun-rounds": [
+      25,
+      15,
+      10
+    ]
+  }
+}

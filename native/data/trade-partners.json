@@ -1,0 +1,311 @@
+{
+  "description": "Fictional logistics hubs located within the existing game country outlines; not real-world airports.",
+  "default": "Germany",
+  "partners": [
+    {
+      "id": "United States",
+      "lat": 37.25146,
+      "lon": -95.84849
+    },
+    {
+      "id": "China",
+      "lat": 36.90967,
+      "lon": 104.17983
+    },
+    {
+      "id": "India",
+      "lat": 21.78711,
+      "lon": 82.7543
+    },
+    {
+      "id": "Japan",
+      "lat": 36.6944,
+      "lon": 136.99641
+    },
+    {
+      "id": "Germany",
+      "lat": 51.09111,
+      "lon": 10.43706
+    },
+    {
+      "id": "United Kingdom",
+      "lat": 54.33569,
+      "lon": -2.19355
+    },
+    {
+      "id": "France",
+      "lat": 46.7188,
+      "lon": 1.68892
+    },
+    {
+      "id": "Russia",
+      "lat": 59.46487,
+      "lon": 103.67598
+    },
+    {
+      "id": "Brazil",
+      "lat": -14.24211,
+      "lon": -54.40376
+    },
+    {
+      "id": "Canada",
+      "lat": 56.83086,
+      "lon": -98.33748
+    },
+    {
+      "id": "Italy",
+      "lat": 42.51062,
+      "lon": 12.55679
+    },
+    {
+      "id": "South Korea",
+      "lat": 36.46885,
+      "lon": 127.8667
+    },
+    {
+      "id": "Australia",
+      "lat": -24.92642,
+      "lon": 133.40083
+    },
+    {
+      "id": "Spain",
+      "lat": 39.89524,
+      "lon": -2.96445
+    },
+    {
+      "id": "Mexico",
+      "lat": 23.63037,
+      "lon": -101.95002
+    },
+    {
+      "id": "Indonesia",
+      "lat": 0.10054,
+      "lon": 113.94541
+    },
+    {
+      "id": "Turkey",
+      "lat": 38.94736,
+      "lon": 35.45659
+    },
+    {
+      "id": "Saudi Arabia",
+      "lat": 24.24814,
+      "lon": 45.12861
+    },
+    {
+      "id": "Netherlands",
+      "lat": 52.0958,
+      "lon": 5.3231
+    },
+    {
+      "id": "Switzerland",
+      "lat": 46.80283,
+      "lon": 8.21231
+    },
+    {
+      "id": "Sweden",
+      "lat": 62.19163,
+      "lon": 17.0009
+    },
+    {
+      "id": "Norway",
+      "lat": 66.51668,
+      "lon": 15.33047
+    },
+    {
+      "id": "Poland",
+      "lat": 51.92947,
+      "lon": 19.11719
+    },
+    {
+      "id": "Argentina",
+      "lat": -37.07959,
+      "lon": -63.62241
+    },
+    {
+      "id": "South Africa",
+      "lat": -28.46602,
+      "lon": 24.66685
+    },
+    {
+      "id": "Egypt",
+      "lat": 26.82493,
+      "lon": 30.7873
+    },
+    {
+      "id": "Nigeria",
+      "lat": 9.07512,
+      "lon": 8.65659
+    },
+    {
+      "id": "Pakistan",
+      "lat": 30.39502,
+      "lon": 68.946
+    },
+    {
+      "id": "Bangladesh",
+      "lat": 23.68098,
+      "lon": 90.32754
+    },
+    {
+      "id": "Thailand",
+      "lat": 13.03059,
+      "lon": 101.50747
+    },
+    {
+      "id": "Vietnam",
+      "lat": 16.70233,
+      "lon": 106.8838
+    },
+    {
+      "id": "Philippines",
+      "lat": 15.59119,
+      "lon": 121.5142
+    },
+    {
+      "id": "Ukraine",
+      "lat": 48.79385,
+      "lon": 31.13008
+    },
+    {
+      "id": "Israel",
+      "lat": 31.24959,
+      "lon": 35.06665
+    },
+    {
+      "id": "Iran",
+      "lat": 32.43533,
+      "lon": 53.66421
+    },
+    {
+      "id": "Iraq",
+      "lat": 33.21777,
+      "lon": 43.66001
+    },
+    {
+      "id": "Chile",
+      "lat": -35.69473,
+      "lon": -71.35845
+    },
+    {
+      "id": "Colombia",
+      "lat": 4.09922,
+      "lon": -72.95073
+    },
+    {
+      "id": "New Zealand",
+      "lat": -43.56035,
+      "lon": 170.42388
+    },
+    {
+      "id": "Greece",
+      "lat": 39.36021,
+      "lon": 22.9819
+    },
+    {
+      "id": "Portugal",
+      "lat": 39.57141,
+      "lon": -7.84612
+    },
+    {
+      "id": "Czechia",
+      "lat": 49.80701,
+      "lon": 15.46099
+    },
+    {
+      "id": "Austria",
+      "lat": 47.70041,
+      "lon": 13.33569
+    },
+    {
+      "id": "Belgium",
+      "lat": 50.501,
+      "lon": 4.44468
+    },
+    {
+      "id": "Denmark",
+      "lat": 56.27161,
+      "lon": 9.52383
+    },
+    {
+      "id": "Finland",
+      "lat": 64.94043,
+      "lon": 26.07935
+    },
+    {
+      "id": "Ireland",
+      "lat": 53.41978,
+      "lon": -8.20881
+    },
+    {
+      "id": "Singapore",
+      "lat": 1.35623,
+      "lon": 103.82329
+    },
+    {
+      "id": "Malaysia",
+      "lat": 3.9261,
+      "lon": 114.40264
+    },
+    {
+      "id": "Romania",
+      "lat": 45.96714,
+      "lon": 24.97383
+    },
+    {
+      "id": "Hungary",
+      "lat": 47.15325,
+      "lon": 19.48486
+    },
+    {
+      "id": "Morocco",
+      "lat": 28.67529,
+      "lon": -9.0343
+    },
+    {
+      "id": "Kenya",
+      "lat": 0.39995,
+      "lon": 37.89199
+    },
+    {
+      "id": "Ethiopia",
+      "lat": 9.1542,
+      "lon": 40.48857
+    },
+    {
+      "id": "Ghana",
+      "lat": 7.96467,
+      "lon": -1.02834
+    },
+    {
+      "id": "Peru",
+      "lat": -9.19368,
+      "lon": -75.01094
+    },
+    {
+      "id": "Algeria",
+      "lat": 28.0395,
+      "lon": 1.64226
+    },
+    {
+      "id": "Kazakhstan",
+      "lat": 47.99912,
+      "lon": 66.96602
+    },
+    {
+      "id": "United Arab Emirates",
+      "lat": 24.17249,
+      "lon": 54.21915
+    },
+    {
+      "id": "Qatar",
+      "lat": 25.35896,
+      "lon": 51.18174
+    },
+    {
+      "id": "Cuba",
+      "lat": 21.6897,
+      "lon": -79.51201
+    }
+  ]
+}

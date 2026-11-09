@@ -1,0 +1,74 @@
+[
+  {
+    "title": "GLÓBUS · VELENÍ A POHOTOVOST",
+    "text": "Glóbus zobrazuje základny, radarová stanoviště, zjištěná UFO, letadla a satelitní pokrytí. Tažením otáčíš planetou, kolečkem měníš přiblížení. První základnu umístíš kliknutím na pevninu a zadáním názvu. Dialog lze potvrdit myší nebo Enterem, zrušit myší nebo Esc. Levé menu otevírá ostatní obrazovky. Horní lišta řídí herní čas; přechod mezi herními obrazovkami jej nezastavuje. Lokace obsahují pronajímaná kosmická střediska."
+  },
+  {
+    "title": "ZÁKLADNA · STAVBA A ZAŘÍZENÍ",
+    "text": "V pravém seznamu vyber budovu. Při pohybu nad plochou vidíš její skutečný půdorys: světlý obrys znamená platné umístění, přeškrtnutý obrys neplatné. Stavbu mohou blokovat jiné objekty, okraj mapy, nedostatek energie nebo peněz. Na povrchu lze přepínat 2D a izometrický pohled, v podzemí se používá 2D. Zvol MAZAT OBJEKTY a klikni na budovu. Odstranění musíš potvrdit; vrací 10 % ceny. Velitelské centrum a výtah nelze odstranit. Elektrárnu nelze odstranit, pokud by nezbylo dost energie."
+  },
+  {
+    "title": "LETADLA · HANGÁR A MISE",
+    "text": "V hangáru vyber letadlo. Lze změnit jeho název, přiřadit dostupnou posádku a sledovat palivo, trup a munici. Servis doplní provozní zásoby po uplynutí uvedeného času a zaplacení nákladů. Kliknutím na obrázek otevřeš výzbroj: vyber označený slot přímo na letadle a potom kompatibilní modul vpravo. Během servisu změna modulů není možná. U zjištěných UFO jsou dostupné příkazy zachycení."
+  },
+  {
+    "title": "VOJÁCI · SEZNAM A VÝBAVA",
+    "text": "Seznam vojáků otevírá profil a výbavu. Horní lištu portrétů lze posouvat kolečkem a tenkým posuvníkem; tak jsou dostupní všichni vojáci. V profilu jsou bojové vlastnosti, nosnost a přehled schopností. Výbava se odebírá ze skutečného skladu a při vrácení se do něj vrací. Batoh má 5 × 4 pole, opasek přijímá jen předměty velikosti 1. V dokončené tělocvičně lze zahájit 48hodinový trénink fyzických vlastností. Trénink lze zrušit bez zvýšení vlastností."
+  },
+  {
+    "title": "SKLAD · ZÁSOBY A OBCHOD",
+    "text": "Sklad ukazuje dostupné předměty, jejich počty, ceny a zaplnění skladových budov. Běžný sklad má v této místní verzi 40 palet; čtyři počáteční sklady tedy 160 palet. Uran používá samostatný sklad. Množství nákupu nebo prodeje nastavíš lištou, přímým číslem nebo volbou 1, 10 či 100. Celé množství se nakoupí nebo prodá najednou. Výbava přidělená vojákům už není započítaná mezi volnými zásobami. Obchod potřebuje dokončený sklad a letiště."
+  },
+  {
+    "title": "PRACOVNÍ TRH · NÁBOR A VÝCVIK",
+    "text": "Na pracovním trhu zvol povolání a konkrétního uchazeče. Každý má vlastní schopnosti, mzdu a zkušenostní úroveň. Tlačítko náboru přijme právě vybraného člověka. Nabídky se pravidelně obnovují. Vědci pracují ve výzkumu, technici ve výrobě nebo jako posádka podle typu letadla. PŘIŘADIT VOLNÉ zapojí dostupné pracovníky; ZRUŠIT VŠE uvolní tým, nikoli projekt či zakázku."
+  },
+  {
+    "title": "VÝZKUM A VÝROBNÍ FRONTY",
+    "text": "Menu VÝZKUM a VÝROBA otevírá příslušnou frontu. Každá položka má vlastní čas, procenta a stav. PŘIDAT otevírá výběr projektu či výrobku; kliknutí na řádek jeho detail. Projekty vyžadují laboratoř a příslušné nálezy či předchozí výzkum. Výroba potřebuje dílnu, suroviny, peníze a přiřazené techniky. Uvolněný tým přechází na další čekající položku. Čas zahrnuje čekání na tým. Dokončené položky zůstávají jako 100 % a 0 h. Běh času zapneš přímo ve frontě nebo v horní liště."
+  },
+  {
+    "title": "KOSMICKÁ STŘEDISKA · KDE ZAČÍT",
+    "text": "LOKACE obsahují NASA (Houston a Florida), ESA (Paříž a Kourou) a Roskosmos (Koroljov a Bajkonur). Přehled má nahoře širokou mapu přeletů s reliéfním podkladem a přepínatelným počasím; pod ní pozemní osazení podle původního HTML. Houston začíná dvěma obytnými buňkami pro osm osob, datovým centrem, elektrárnou, velitelstvím a výcvikem posádek. Původní dvě buňky stojí při prvním otevření dohromady 480 000. Existující starší ubytování se zachovává a doplní se jen chybějící buňka. ESA má dvě obytné buňky a šest skladů, Roskosmos dvě buňky a čtyři sklady, dílnu a laboratoř. Nábor v Houstonu vyžaduje platný pronájem a volnou dokončenou obytnou kapacitu. Další buňka přidá čtyři místa po 72 hodinách. Výsledek náboru i důvod odmítnutí jsou viditelné přímo na obrazovce."
+  },
+  {
+    "title": "RAKETY · PŘÍPRAVA A PRŮBĚH LETU",
+    "text": "Ve středisku otevři odpalovací rampu. Vyber odpovídající misi, palivo a náklad nebo posádku. Před startem se kontrolují požadavky a náklady; bez splněných podmínek se let nezařadí. Stav letů je uložený v kampani a mění se s herním časem. Satelitní starty ESA vytvářejí satelity podle zvoleného typu a dráhy. Pilotované lety vyžadují přidělenou posádku. Nákladní lety dopravují zásoby k ISS. Pozastavený herní čas pozastavuje také lety."
+  },
+  {
+    "title": "ISS · PRONÁJEM, POSÁDKA A ZÁSOBY",
+    "text": "ISS se otevírá v samostatném okně. Model se otáčí tažením, přibližuje kolečkem nebo tlačítky −/+, dvojklik a RESET obnoví pohled podle HTML. Stálá sedmičlenná provozní posádka je součástí stanice a nelze ji odvolat; neobsazuje ubytování v Houstonu. Tři technici zajišťují údržbu a opravy, dva vědci samostatně evidovanou vědeckou práci, velitel a lékař provoz. Karta PROVOZ A ZÁSOBY ukazuje trup, podporu života, energetiku, komunikaci, vědecké vybavení, vodu, jídlo, kyslík, náhradní díly a palivo. Stanice stárne a může utrpět zásahy mikrometeoritů či úlomků. Zásadní porucha nebo nízké zásoby zapnou nouzový režim: vědecká práce stojí, spotřeba se omezí a technici pokračují v nezbytných opravách. Oprava stojí 10 dílů, trvá 24 hodin a obnoví až 30 procentních bodů systému. Po pronájmu ISS se nastaví pravidelné zásobování každých 14 dnů. Starty vyžadují platné pronájmy a peníze. Počasí používá stejná data jako mapa; nevhodné podmínky odloží start s kontrolou po šesti hodinách. Podle dostupnosti se může použít druhá rampa. Když se zásoby blíží rezervě potřebné na přelet, raketa provede kritický start i přes špatné počasí. Deník zaznamená odklad, zásah, nouzový režim, opravu i doručení. Budoucí nové moduly mají připravené datové vazby; jejich nákup a fyzické připojování se v této verzi ještě nenabízí."
+  },
+  {
+    "title": "NASTAVENÍ HRY",
+    "text": "Před novou hrou lze zvolit ČESKY nebo ENGLISH. Výchozí jazyk je čeština. Nastavení obsahuje rozlišení, režim okna, hlasitost a další dostupné volby. Uložená volba jazyka se použije i při příštím spuštění. Hru a postup kampaně ukládej do zvoleného slotu. Ovládání času najdeš v horní liště; ve výrobní a výzkumné frontě je navíc přímo tlačítko spuštění nebo pozastavení času."
+  },
+  {
+    "title": "LETADLA A LET",
+    "text": "Typ letadla určuje posádku, motor a kompatibilní výzbroj. Stíhačka používá hlavní a vedlejší zbraň i systémový slot. Vznášedlo a AWACS mají motor a příslušenství. Náklady servisu závisí na chybějícím palivu, stavu trupu a munici. Při přiřazování vybírej skutečně dostupného člověka nebo modul a sleduj potvrzení v detailu."
+  },
+  {
+    "title": "PĚCHOTNÍ ZBRANĚ",
+    "text": "Pistole, pušky, kulomety a raketomety mají vlastní munici a bojové vlastnosti. Grafy střelby ukazují referenční závislost účinnosti na vzdálenosti pro dostupné režimy střelby. Nepodporovaný režim je označen jako nedostupný. Nová hra rozděluje hlavní zbraně mezi vojáky podle schopností a nosnosti. Všechny další změny výbavy prováděj v jejich profilu."
+  },
+  {
+    "title": "ZBROJ A VYBAVENÍ VOJÁKA",
+    "text": "Ufopedie uvádí u každé budovy kapacitu a způsob využití. Ubytovna má 50 míst pro vědce, techniky, piloty a navigátory; kasárna 20 míst pro vojáky. Běžný sklad má 40 palet, uranový 10. Laboratoř slouží vědcům, dílna technikům. Jedna dokončená laboratoř poskytuje 25 míst pro vědce, jedna dílna 25 míst pro techniky. Kapacity více budov se sčítají pro všechny přiřazené týmy. PŘIŘADIT VOLNÉ respektuje zbývající místa; nad kapacitu nelze přidělit dalšího pracovníka. Tým se přiřazuje projektu nebo zakázce. Referenční počet vědců u projektu vyjadřuje rychlost výzkumu, nikoli kapacitu budovy. U dalších objektů Ufopedie výslovně uvádí, pokud kapacita personálu není stanovena."
+  },
+  {
+    "title": "BUDOVY A KAPACITY",
+    "text": "Laboratoře a dílny umožňují výzkum a výrobu. Sklady zvětšují prostor pro zásoby, ubytovny a kasárna kapacitu personálu. Elektrárna dodává energii, radar zajišťuje přehled a satelitní stanice podporují kosmické operace. Tělocvična umožňuje fyzický výcvik. Budovy mají skutečný půdorys a stavba nesmí překrývat jinou budovu. Povrchové objekty nelze umístit do podzemí."
+  },
+  {
+    "title": "KONTAKTY, MATERIÁLY A NÁLEZY",
+    "text": "Železo, plasty, elektronika a sklo jsou výrobní suroviny. Jejich požadované množství uvádí receptura. Mimozemské projekty se zpřístupňují podle skutečných nálezů: biologický exemplář, tělo, vrak nebo dokončená pitva. Nenalezené druhy se ve výzkumném seznamu nenabízejí. Živé exempláře, těla a vraky jsou odlišné podmínky a nelze je navzájem zaměňovat."
+  },
+  {
+    "title": "SATELITNÍ PRŮZKUM · STÁŘÍ SNÍMKŮ A UFO",
+    "text": "V ESA otevři Mapu průzkumu. Filtry Země, voda a vzduch ukazují jednotlivé typy senzorů; Vše jejich společné pokrytí. Zelená znamená snímek do 6 či 24 hodin, olivová do 3 dnů, šedozelená starší. Tmavá oblast dosud nemá snímek. Najetím na mapu zjistíš čas snímku, zdrojový satelit a zda byl zaznamenán kontakt. Značka UFO udává poslední pozorování, nikoli zaručenou současnou polohu; značky starší 72 hodin mizí. Snímkování vyžaduje vypuštěný satelit a platný pronájem ESA. Vzdušný senzor hledá letící UFO; zemský a vodní místa dopadu podle prostředí. Po sestřelení se místo dopadu eviduje po 72 hodin. Nové snímky mohou starý kontakt potvrdit nebo nahradit záběrem bez záchytu. Historie se ukládá s hrou. UFO mohou také sama dosedat na pevninu či do moře a později opět vzlétnout. Dosedlé UFO zůstává aktivní a není vrakem. Malý radar má dosah 2 500 km, velký 5 000 km. Dokončené povrchové radary zachycují UFO v dosahu i bez družic a pronájmu ESA. Kontakty uvádějí radar nebo satelit jako zdroj a rozlišují vzduch, pevninu, moře a trosky."
+  },
+  {
+    "title": "MAPY OPERACÍ · MAPEDITOR",
+    "text": "Pro mapy mapeditoru slouží projektová složka maps. Pozemní mapy ukládej do maps/pozemni, podvodní do maps/podvodni, ve formátu *.uaa-map.json. Volitelný nainstalovaný mapeditor se spouští s touto složkou jako pracovní. Samotné uložení mapy zatím nepřidává možnost zahájit taktickou misi."
+  }
+]

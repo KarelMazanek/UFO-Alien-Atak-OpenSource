@@ -1,0 +1,16 @@
+{
+  "surface": "https://www.naturalearthdata.com/downloads/10m-shaded-relief/10m-shaded-relief-basic/",
+  "countries": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson",
+  "license": "Natural Earth public domain",
+  "transformation": "21600x10800 indexed PNG; dark green lowlands; olive brightness from Natural Earth II warm arid land cover and pale ice plus local relief range (mountain approximation); 7 brightness bands x 32 relief shades; 10m land mask; GPU copy at most 8192px",
+  "surface_download": "https://naciscdn.org/naturalearth/10m/raster/SR_HR.zip",
+  "land_mask": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+  "surface_bytes": 34097998,
+  "surface_sha256": "6e1834ea5901696aa21b6a7da6662000f057460c1f3831674cbe9b7e24ec5a07",
+  "previous_surface_input_sha256": {
+    "uaa-surface.tif": "d8616f4753a9d4cb2e02e8e1e577c103f6009c5962a07a1e445d36507c3ca52a",
+    "uaa-countries-50m.geojson": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+  },
+  "land_cover": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-natural-earth-2/",
+  "land_cover_download": "https://naciscdn.org/naturalearth/50m/raster/NE2_50M_SR.zip"
+}

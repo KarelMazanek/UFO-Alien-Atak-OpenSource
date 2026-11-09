@@ -1,0 +1,15 @@
+{
+  "source": "surface.png",
+  "source_sha256": "6e1834ea5901696aa21b6a7da6662000f057460c1f3831674cbe9b7e24ec5a07",
+  "source_dimensions": [
+    21600,
+    10800
+  ],
+  "render": "surface-render.png",
+  "render_dimensions": [
+    8192,
+    4096
+  ],
+  "sampling": "floor(dst_coordinate * source_size / destination_size)",
+  "render_sha256": "1f74f9c535f449fbaf73e9ac3f25f10ad627ca03b9cdc7d6692d44cf21dbe84d"
+}

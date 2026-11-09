@@ -1,0 +1,14 @@
+HUDBA / MUSIC
+
+© Karel Keslly Mazánek. Všechna práva vyhrazena / All rights reserved.
+
+Autor hudby / Music author: Karel Keslly Mazánek.
+
+Toto oznámení platí pro původní hudební nahrávky UFO Alien Atak,
+včetně ambient.mp3, alert.mp3 a stejných nahrávek vložených do HTML.
+Hudba je výslovně vyjmuta z licence MIT zdrojového kódu.
+Tímto oznámením se hudbě neuděluje otevřená licence.
+
+The original UFO Alien Atak music recordings, including ambient.mp3,
+alert.mp3 and the same recordings embedded in HTML, are excluded from
+the source code's MIT license. No open license for the music is granted.

@@ -1,0 +1,175 @@
+{
+  "esa": {
+    "source": "game/UFO-ALIEN-ATAK-v0.3.0.html: ensureBaseLayout",
+    "initialHousingCost": 0,
+    "buildings": [
+      {
+        "id": "workshop",
+        "x": 0,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "research",
+        "x": 3,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "power",
+        "x": 6,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "residential",
+        "x": 0,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "residential",
+        "x": 0,
+        "y": 4,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "datacenter",
+        "x": 5,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 2,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 3,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 4,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 2,
+        "y": 3,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 3,
+        "y": 3,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 4,
+        "y": 3,
+        "floor": 0,
+        "ready": 0.0
+      }
+    ]
+  },
+  "roscosmos": {
+    "source": "game/UFO-ALIEN-ATAK-v0.3.0.html: ensureBaseLayout",
+    "initialHousingCost": 480000,
+    "buildings": [
+      {
+        "id": "command",
+        "x": 0,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "datacenter",
+        "x": 3,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "power",
+        "x": 6,
+        "y": 0,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "workshop",
+        "x": 0,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "research",
+        "x": 3,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 6,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 7,
+        "y": 2,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 6,
+        "y": 3,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "storage",
+        "x": 7,
+        "y": 3,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "residential",
+        "x": 0,
+        "y": 4,
+        "floor": 0,
+        "ready": 0.0
+      },
+      {
+        "id": "residential",
+        "x": 0,
+        "y": 6,
+        "floor": 0,
+        "ready": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "classroom": {
+    "image": "base/classroom.png",
+    "sourceKey": "embedded_facility_classroom",
+    "view": "surface",
+    "sourceSha256": "097be4218e5511dc670792424d9e4c137cd16726a1b6dd793aea9cd4eddce53e",
+    "width": 245,
+    "height": 177
+  },
+  "command": {
+    "image": "base/command.png",
+    "sourceKey": "v18_command",
+    "view": "surface",
+    "sourceSha256": "7bf5d54e048225eab4d79a6bc67cb0e4eaa1400fb8cc16635760b085b2aa9498",
+    "width": 239,
+    "height": 177
+  },
+  "crewTraining": {
+    "image": "base/crewTraining.png",
+    "sourceKey": "embedded_facility_crewTraining",
+    "view": "surface",
+    "sourceSha256": "e7022eb8445eb642fe24b14b5121a9bec79a40bfc0dcb6bffeed003e375cbd74",
+    "width": 239,
+    "height": 203
+  },
+  "datacenter": {
+    "image": "base/datacenter.png",
+    "sourceKey": "v18_datacenter",
+    "view": "surface",
+    "sourceSha256": "12ab4936be07c1d1701c5a579f413b1e679eb78069d9c511f5074f7123cd5973",
+    "width": 243,
+    "height": 177
+  },
+  "decontamination": {
+    "image": "base/decontamination.png",
+    "sourceKey": "v18_decontamination",
+    "view": "surface",
+    "sourceSha256": "026d9f49c81524692638dd561909c8ea883f861194b3cb69c1302058f53b3b9a",
+    "width": 252,
+    "height": 203
+  },
+  "defence": {
+    "image": "base/defence.png",
+    "sourceKey": "v18_defence",
+    "view": "surface",
+    "sourceSha256": "00b5bed289a8335725674af614132ddd423a4332e64e4a4816f245d917f8ab8e",
+    "width": 243,
+    "height": 203
+  },
+  "elevator": {
+    "image": "base/elevator.png",
+    "sourceKey": "v18_elevator",
+    "view": "surface",
+    "sourceSha256": "026d9f49c81524692638dd561909c8ea883f861194b3cb69c1302058f53b3b9a",
+    "width": 252,
+    "height": 203
+  },
+  "flightTraining": {
+    "image": "base/flightTraining.png",
+    "sourceKey": "embedded_facility_flightTraining",
+    "view": "surface",
+    "sourceSha256": "91740c9d320bf7d53591c430d97b9391561e7e65cc90cffd108047e84c6c4af7",
+    "width": 505,
+    "height": 355
+  },
+  "gym": {
+    "image": "base/gym.png",
+    "sourceKey": "v18_gym",
+    "view": "surface",
+    "sourceSha256": "864b1571418712e91be6ec7e904a6a138df94927bd50b6895cfcc937e43959a9",
+    "width": 245,
+    "height": 177
+  },
+  "hangar": {
+    "image": "base/hangar.png",
+    "sourceKey": "v18_hangar",
+    "view": "surface",
+    "sourceSha256": "ae10b9bed2a858ea8777e61d68ead2637d60981bc1accbd31239de8e9d015502",
+    "width": 252,
+    "height": 177
+  },
+  "hospital": {
+    "image": "base/hospital.png",
+    "sourceKey": "v18_hospital",
+    "view": "surface",
+    "sourceSha256": "1a154b7b644e48712e1cee75ba746436b63e3eacec6e984440ff3addc0e08eb8",
+    "width": 245,
+    "height": 203
+  },
+  "pilotTraining": {
+    "image": "base/pilotTraining.png",
+    "sourceKey": "embedded_facility_pilotTraining",
+    "view": "surface",
+    "sourceSha256": "f89dd897d247d8472246512d664cb6160b1d3096a1695170510d00cb00d2646a",
+    "width": 446,
+    "height": 350
+  },
+  "power": {
+    "image": "base/power.png",
+    "sourceKey": "v18_power",
+    "view": "surface",
+    "sourceSha256": "9717a1972be891d02fd99655b0f8b7d12e9754e0f68d436e42881855840195fe",
+    "width": 245,
+    "height": 177
+  },
+  "quarters": {
+    "image": "base/quarters.png",
+    "sourceKey": "v18_quarters",
+    "view": "surface",
+    "sourceSha256": "816e368fd7f7188a1b2c018260f4fbdda6f104ed699235ba88155af4590d8ba1",
+    "width": 239,
+    "height": 177
+  },
+  "radar": {
+    "image": "base/radar.png",
+    "sourceKey": "v18_radar",
+    "view": "surface",
+    "sourceSha256": "e8c4a469c82b7a28b88e20af7194a95999b6452f1c80936476684044b220e214",
+    "width": 252,
+    "height": 177
+  },
+  "radarLarge": {
+    "image": "base/radarLarge.png",
+    "sourceKey": "v18_radarLarge",
+    "view": "surface",
+    "sourceSha256": "12ab4936be07c1d1701c5a579f413b1e679eb78069d9c511f5074f7123cd5973",
+    "width": 243,
+    "height": 177
+  },
+  "research": {
+    "image": "base/research.png",
+    "sourceKey": "v18_research",
+    "view": "surface",
+    "sourceSha256": "864b1571418712e91be6ec7e904a6a138df94927bd50b6895cfcc937e43959a9",
+    "width": 245,
+    "height": 177
+  },
+  "residential": {
+    "image": "base/residential.png",
+    "sourceKey": "v18_residential",
+    "view": "surface",
+    "sourceSha256": "864b1571418712e91be6ec7e904a6a138df94927bd50b6895cfcc937e43959a9",
+    "width": 245,
+    "height": 177
+  },
+  "rest": {
+    "image": "base/rest.png",
+    "sourceKey": "embedded_facility_rest",
+    "view": "surface",
+    "sourceSha256": "e7022eb8445eb642fe24b14b5121a9bec79a40bfc0dcb6bffeed003e375cbd74",
+    "width": 239,
+    "height": 203
+  },
+  "runway": {
+    "image": "base/runway.png",
+    "sourceKey": "approved_runway",
+    "view": "surface",
+    "sourceSha256": "729779c371814610a3c6fe96df78e55e3d342eb6e32badd267a9c5ef3e303082",
+    "width": 634,
+    "height": 316
+  },
+  "satellite": {
+    "image": "base/satellite.png",
+    "sourceKey": "v18_satellite",
+    "view": "surface",
+    "sourceSha256": "ffb364a279181ee210970ff267f64170b48eb81d06ed3de437bd46aa8d45c273",
+    "width": 243,
+    "height": 177
+  },
+  "soldierBarracks": {
+    "image": "base/soldierBarracks.png",
+    "sourceKey": "v18_soldierBarracks",
+    "view": "surface",
+    "sourceSha256": "6ac5570c9a9fa2ab7ddc13d69694cebf7484dff4f9602f148ef4a8e04fb3735a",
+    "width": 239,
+    "height": 203
+  },
+  "storage": {
+    "image": "base/storage.png",
+    "sourceKey": "embedded_facility_storage",
+    "view": "surface",
+    "sourceSha256": "7c76de07f96d6052515a8354e8f1db08de9d94eb1cac6c9879e20f74b483a8ca",
+    "width": 243,
+    "height": 177
+  },
+  "uraniumStorage": {
+    "image": "base/uraniumStorage.png",
+    "sourceKey": "v18_uraniumStorage",
+    "view": "surface",
+    "sourceSha256": "5f2fd577d755a2f75899606c8fbe77783c65871a9c552535ec29a0cce72e9abd",
+    "width": 243,
+    "height": 177
+  },
+  "workshop": {
+    "image": "base/workshop.png",
+    "sourceKey": "v18_workshop",
+    "view": "surface",
+    "sourceSha256": "b4de145d60dd5717c8de32b08ed2c6c2469a669039f644b3fee1c12d949a8c41",
+    "width": 250,
+    "height": 177
+  }
+}

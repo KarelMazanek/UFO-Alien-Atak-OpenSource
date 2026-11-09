@@ -1,0 +1,57 @@
+{
+  "source": "game/UFO-ALIEN-ATAK-v0.3.0.html: ensureBaseLayout / houstonGridLayoutV2",
+  "grid": [
+    10,
+    10
+  ],
+  "initialHousing": 2,
+  "placesPerHousing": 4,
+  "housingPositions": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "datacenter",
+      "x": 0,
+      "y": 2,
+      "floor": 0,
+      "ready": 0.0
+    },
+    {
+      "id": "power",
+      "x": 3,
+      "y": 2,
+      "floor": 0,
+      "ready": 0.0
+    },
+    {
+      "id": "command",
+      "x": 0,
+      "y": 4,
+      "floor": 0,
+      "ready": 0.0
+    },
+    {
+      "id": "crewTraining",
+      "x": 3,
+      "y": 4,
+      "floor": 0,
+      "ready": 0.0
+    }
+  ]
+}
