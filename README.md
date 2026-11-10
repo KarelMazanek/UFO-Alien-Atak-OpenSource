@@ -6,6 +6,8 @@ Veřejné zdroje vývojové verze **0.4.0-dev.57-local**. Hra používá C++17 a
 
 [Instalátory pro Linux32 a Windows32](https://github.com/KarelMazanek/UFO-Alien-Atak-OpenSource/releases). U vydání jsou kontrolní součty SHA-256 a návod k instalaci. Linuxová hra a mapeditor jsou samostatné DEB; ve Windows je mapeditor ve výchozím stavu nezaškrtnutý. Chyby prosím hlaste přes [Issues](https://github.com/KarelMazanek/UFO-Alien-Atak-OpenSource/issues), včetně systému, verze, postupu a případného screenshotu. Nepřikládejte osobní údaje ani přístupové klíče.
 
+[Protokol změn](CHANGELOG.md) obsahuje přehled vydání, úprav hry a známých omezení.
+
 ## Licence
 
 Vlastní zdrojový kód je pod licencí **MIT** — viz [LICENSE](LICENSE). **Hudba, grafika a loga tím nezískávají licenci MIT.** Hudba: © Karel Keslly Mazánek, všechna práva vyhrazena. Podrobnosti a licence závislostí: [LICENSING.md](LICENSING.md), [MUSIC-LICENSE.txt](MUSIC-LICENSE.txt), `native/LICENSES/` a licence mapeditoru. Natural Earth je public domain.
